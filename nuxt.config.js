@@ -41,7 +41,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/appio-labs.github.io/'
+    base: '/'
   },
 
   /*
