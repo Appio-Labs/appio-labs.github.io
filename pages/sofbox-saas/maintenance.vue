@@ -1,0 +1,41 @@
+<template>
+  <!--=================================
+    MAIN CONTENT -->
+  <div class="main-content">
+    <!--=================================
+  Error -->
+    <div class="maintenance-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="maintenance text-center">
+              <div class="maintenance-img">
+                <img src="../../assets/sofbox-sass-black/images/bg/02.png" class="img-fluid maintenance-one" alt="image">
+                <img src="../../assets/sofbox-sass-black/images/bg/03.png" class="img-fluid maintenance-two" alt="image">
+                <img src="../../assets/sofbox-sass-black/images/bg/02.png" class="img-fluid maintenance-three" alt="image">
+              </div><br>
+              <h2 class="iq-font-100 iq-fw-5 mb-5">
+                Under Maintenance
+              </h2>
+              <p class="text-white iq-font-32">
+                The website is under construction, come back soon
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=================================
+  Error -->
+  </div>
+</template>
+<script>
+import { sofbox } from '../../assets/app/app'
+export default {
+  name: 'Index',
+  layout: 'SofboxSass',
+  mounted () {
+    sofbox.index()
+  }
+}
+</script>

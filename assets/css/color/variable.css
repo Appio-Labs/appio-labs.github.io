@@ -1,0 +1,8 @@
+:root{
+  --primary-theme-color: #D1F250;
+  --secondary-theme-color: #1D232A;
+  /*--primary-theme-color: #1D232A;*/
+  --white-theme-color: #1D232A;
+  /*--white-theme-color: #fff;*/
+  --primary-rgb-theme-color:29,35,42;
+}
