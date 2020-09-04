@@ -19,15 +19,15 @@ export default {
           href: '#iq-home',
           title: 'Home',
           active: true,
-          children: true,
+          children: false,
           child: menu
         },
         { href: '#how-it-works', title: 'About' },
         { href: '#software-features', title: 'Service' },
         /* { href: '#great-screenshots', title: 'Screenshots' }, */
-        { href: '#pricing', title: 'Pricing' },
-        { href: '#team', title: 'Team' },
-        { href: '#blog', title: 'Blog' },
+        /* { href: '#pricing', title: 'Pricing' }, */
+        /* { href: '#team', title: 'Team' },
+        { href: '#blog', title: 'Blog' }, */
         { href: '#contact-us', title: 'Contact' }
       ]
     }

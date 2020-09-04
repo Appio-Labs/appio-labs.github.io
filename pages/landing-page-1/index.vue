@@ -4,14 +4,14 @@
     <div class="main-content">
       <About />
       <Specialities />
-      <Counter />
-      <Testimonial />
-      <Pricing />
-      <Team />
-      <CompareService />
-      <Faq />
-      <Blog />
-      <Client />
+      <!--<Counter />-->
+      <!--<Testimonial />-->
+      <!--<Pricing />-->
+      <!--<Team />-->
+      <!--<CompareService />-->
+      <!--<Faq />-->
+      <!--<Blog />-->
+      <!--<Client />-->
       <footer>
         <ParallaxStyle1 :bg-image="require('../../assets/images/bg/01.jpg')" ids="iq-home" class-names="iq-ptb-100 iq-newsletter iq-bg-over iq-over-blue-90 jarallax">
           <div class="container">
@@ -43,13 +43,13 @@
           <p slot="address">
             1234 North Avenue Luke Lane, South Bend, IN 360001
           </p>
-          <p slot="phone">
+          <!--<p slot="phone">
             +0123 456 789
             <br>Mon-Fri 8:00am - 8:00pm
             <br>
-          </p>
+          </p>-->
           <p slot="mail">
-            support@sofbox.com
+            helloappio@protonmail.com
             <br>24 X 7 online support
             <br>
           </p>
