@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/sofbox-saas/blog-detail-right-sidebar", {data:[{}],fetch:[],mutations:void 0});

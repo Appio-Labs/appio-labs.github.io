@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/sofbox-saas/coming-soon", {data:[{}],fetch:[],mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/portfolio2-columns", {data:[{}],fetch:[],mutations:void 0});
