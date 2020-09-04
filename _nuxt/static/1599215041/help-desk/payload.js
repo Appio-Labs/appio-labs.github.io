@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/help-desk", {data:[{}],fetch:[],mutations:void 0});

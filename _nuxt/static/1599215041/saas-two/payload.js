@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/saas-two", {data:[{}],fetch:[],mutations:void 0});
