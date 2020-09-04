@@ -63,7 +63,7 @@
         </FooterStyle3>
       </footer>
     </div>
-    <ColorCustomizer />
+    <!--<ColorCustomizer />-->
     <ScrollTop />
   </div>
 </template>
