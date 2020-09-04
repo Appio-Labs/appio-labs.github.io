@@ -1,6 +1,6 @@
-# sofbox-vue
+# appio
 
-> Sofbox Vue Landing page
+> Appio Landing page
 
 ## Build Setup
 
