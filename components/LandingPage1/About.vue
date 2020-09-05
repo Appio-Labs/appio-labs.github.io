@@ -10,15 +10,15 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row heading-title">
           <div class="col-md-12 col-lg-4">
             <CardStyle5 step="1">
-              <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid" alt="#">
+              <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid center-block" alt="#">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   Web Development
                 </h5>
-                <p>Sofbox allows easily to customize the template as per your business needs. Also it makes easy to tailor-made.</p>
+                <p>Appio allows easily to customize the template as per your business needs. Also it makes easy to tailor-made.</p>
               </div>
             </CardStyle5>
           </div>
@@ -40,7 +40,7 @@
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   Software Architecture
                 </h5>
-                <p>Sofbox’s harmonious design and super clean looks will make your website look beautiful and elegant. It makes your creation look good.</p>
+                <p>Appio’s harmonious design and super clean looks will make your website look beautiful and elegant. It makes your creation look good.</p>
               </div>
             </CardStyle5>
           </div>
@@ -50,7 +50,7 @@
     <ParallaxStyle1 class-names="iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" :bg-image="image" ids="counter">
     <div class="container">
       <div class="row">
-      <div slot="cardBody" class="col-lg-6">
+      <div slot="cardBody" class="col-lg-6 iq-pt-60">
         <div class="heading-title left text-left white">
           <h3 class="iq-tw-7 iq-mb-25 title">
             What can appio do?
@@ -60,10 +60,10 @@
         <p class="iq-mt-20">
           You can fully customize the template with ease. Every page is fully responsive and retina ready which makes your creation look good on any device.
         </p>
-        <h6 class="iq-tw-6 iq-mb-15 iq-mt-25">
+        <!--<h6 class="iq-tw-6 iq-mb-15 iq-mt-25">
           Discover our best ever services.
         </h6>
-        <a href="javascript:void(0)" class="button iq-mt-20">Click Here</a>
+        <a href="javascript:void(0)" class="button iq-mt-20">Click Here</a>-->
       </div>
       <div slot="cardMedia" class="col-lg-6 align-self-center">
         <img class="iq-works-img pull-right img-fluid" src="../../assets/images/drive/01.png" alt="drive01">

@@ -1,12 +1,14 @@
 <template>
-  <div class="iq-works-box text-left">
-    <div class="step">
+  <div class="iq-works-box round-icon">
+    <!--<div class="step">
       {{ step }}
-    </div>
-    <div class="icon-bg text-center">
+    </div>-->
+    <div class="icon-bg center-block">
       <slot name="cardMedia"/>
     </div>
+    <div class="text-center">
     <slot name="cardBody"/>
+    </div>
   </div>
 </template>
 
