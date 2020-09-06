@@ -47,9 +47,20 @@
         </div>
       </div>
     </section>
-    <ParallaxStyle1 class-names="iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" :bg-image="image" ids="counter">
+    <ParallaxStyle1 class-names="overview-block-pt iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" :bg-image="image" ids="counter">
     <div class="container">
       <div class="row">
+        <div class="iq-objectsnew">
+          <span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
+            <img src="../../assets/images/drive/03.png" class="img-fluid" alt="drive02">
+          </span>
+          <span class="iq-objects-03" data-bottom="transform:translatex(50px)" data-top="transform:translatex(-100px);">
+            <img src="../../assets/images/drive/04.png" class="img-fluid" alt="drive02">
+          </span>
+          <span class="iq-objects-04 iq-fadebounce">
+            <span class="iq-round"></span>
+          </span>
+        </div>
       <div slot="cardBody" class="col-lg-6 iq-pt-60">
         <div class="heading-title left text-left white">
           <h3 class="iq-tw-7 iq-mb-25 title">
@@ -68,17 +79,7 @@
       <div slot="cardMedia" class="col-lg-6 align-self-center">
         <img class="iq-works-img pull-right img-fluid" src="../../assets/images/drive/01.png" alt="drive01">
       </div>
-      <div class="iq-objectsnew">
-          <span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
-            <img src="../../assets/images/drive/03.png" class="img-fluid" alt="drive02">
-          </span>
-          <span class="iq-objects-03" data-bottom="transform:translatex(50px)" data-top="transform:translatex(-100px);">
-            <img src="../../assets/images/drive/04.png" class="img-fluid" alt="drive02">
-          </span>
-          <span class="iq-objects-04 iq-fadebounce">
-            <span class="iq-round"></span>
-          </span>
-        </div>
+      
       </div>
       </div>
     </ParallaxStyle1>
