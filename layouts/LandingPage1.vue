@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import logoImg from '../assets/images/logo.png'
+import logoImg from '../assets/images/logo-inline.png'
 import { menu } from '~/config/constant'
 export default {
   name: 'LandingPage1',
