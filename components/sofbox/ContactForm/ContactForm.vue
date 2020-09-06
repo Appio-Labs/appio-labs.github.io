@@ -44,11 +44,11 @@
           name="message"
           required></textarea>
       </div>
-      <div class="section-field iq-mt-20">
+      <div class="section-field iq-mt-40">
         <!--<div class="g-recaptcha" data-sitekey="6LdA3mYUAAAAANpUuZTLbKM_s23tTHlcdJ7dYfgI"></div>-->
         <!--<re-captcha (resolved)="resolved($event)" class="google-recaptcha" size="invisible" siteKey="6LdoGLQUAAAAAHXWWr3HKFpCmEm768SZ8acyeRKq"></re-captcha>-->
       </div>
-      <button id="submit" name="submit" type="submit" value="Send" :class="buttonDis ? 'button iq-mt-15 disabled' : 'button iq-mt-15 '">
+      <button id="submit" name="submit" type="submit" value="Send" :class="buttonDis ? 'button iq-mb-20 disabled' : 'button iq-mb-20 '">
         Send Message
       </button>
       <div id="success" class="alert alert-success alert-dismissible fade show" role="alert">
