@@ -265,7 +265,7 @@ blockquote {
 -----------------------------------------------------------------------*/
 
 #loading {
-  background-color: #eee;
+  background-color: #1D232A;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -349,8 +349,8 @@ blockquote {
 
 .cube .sides * {
   box-sizing: border-box;
-  background-color: rgba(74, 196, 243, 0.8);
-  border: 5px solid white;
+  background-color: rgba(209, 242, 80, 0.8);
+  border: 5px solid rgba(209, 242, 80, 1.0);
 }
 
 .cube .sides .top {
@@ -3035,9 +3035,9 @@ header.dark.menu-sticky {
   margin-bottom: -50px;
   width: 680px;
   height: 383px;
-  -webkit-box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.25);
-  -moz-box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.25);
-  box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.25);
+  -webkit-box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.0);
+  -moz-box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.0);
+  box-shadow: 0px 5px 50px 1px rgba(102, 102, 102, 0.0);
 }
 
 .iq-banner-02 .banner-objects {

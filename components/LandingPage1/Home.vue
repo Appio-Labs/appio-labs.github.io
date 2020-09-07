@@ -5,10 +5,10 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="text-uppercase iq-font-white iq-tw-3" >
-              We are building <b class="iq-tw-7">software</b> to help
+              Building <b class="iq-tw-7">software</b> to help
             </h1>
             <p class="iq-font-white iq-pt-15 iq-mb-40">
-              We are a company boutique for digital transformation and software development that offers state-of-the-art engineering solutions, helping  businesses and business customers untangle complicated problems.
+              We are a company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions.
             </p>
             <!--<div class="waves-box">
               <a href="http://www.youtube.com/watch?v=kzyFmrFky7Y" class="iq-video popup-youtube" target="_blank"><i class="ion-ios-play-outline" /></a>

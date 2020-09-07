@@ -18,7 +18,7 @@
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   Web Development
                 </h5>
-                <p>Appio allows easily to customize the template as per your business needs. Also it makes easy to tailor-made.</p>
+                <p>Our web designers and developers are dedicated to creating powerful, effective and engaging websites. Our bold design style and use of ultra-clean combine to produce high quality products.</p>
               </div>
             </CardStyle5>
           </div>
@@ -29,7 +29,7 @@
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   Mobile Development
                 </h5>
-                <p>Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.</p>
+                <p>Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion.</p>
               </div>
             </CardStyle5>
           </div>
@@ -40,7 +40,7 @@
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   Software Architecture
                 </h5>
-                <p>Appio’s harmonious design and super clean looks will make your website look beautiful and elegant. It makes your creation look good.</p>
+                <p>We do initial business analytics of the solution and create architecture of the future product, offering a full cycle of application design, integration, support and management services.</p>
               </div>
             </CardStyle5>
           </div>
@@ -67,9 +67,9 @@
             What can appio do?
           </h3>
         </div>
-        <p>With appio you can create beautiful and elegant websites that suits your business. </p>
+        <p>With appio you can create beautiful and elegant websites and apps that suits your business. </p>
         <p class="iq-mt-20">
-          You can fully customize the template with ease. Every page is fully responsive and retina ready which makes your creation look good on any device.
+          Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality.
         </p>
         <!--<h6 class="iq-tw-6 iq-mb-15 iq-mt-25">
           Discover our best ever services.
@@ -89,26 +89,26 @@
       </div>
       <div slot="cardBody" class="col-lg-6 offset-lg-6">
         <div class="heading-title left text-left">
-          <h3 class="iq-tw-7 iq-mb-25 title">
+          <h3 class="iq-tw-7 iq-mtb-25 title">
             Software Features
           </h3>
         </div>
-        <p>Software provides you with many features that will help you to keep track and keep records of your business. Software is designed and build as per the customers requirement. </p>
+        <p>Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.</p>
         <ul class="iq-mt-40 iq-list">
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">To keep records of customers such as contact information, support interactions and statistical data. </span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Consulting and prototyping.</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">It keeps information which can be retrieved when required.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">UI/UX design.</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Software must be effective to gather, combine and analyze data so you can reveal crucial insights in making decisions.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Custom software development.</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">The software built should support your business as it grows so that you don't have to transfer to another software and start from scratch.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Automated QA and testing.</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">The software should be able to add more users, provide advanced features, and give security</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Maintenance and post-warranty support.</span>
           </li>
         </ul>
       </div>
