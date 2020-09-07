@@ -70,14 +70,45 @@ export default {
         name: '',
         email: '',
         phone: '',
-        message: ''
-      }
+        message: '',
+      },
+      formInvalid: false
     }
   },
   methods: {
     onSubmit ($event) {
+      /*event.preventDefault()
+      if (this.email !== null && this.name !== null && this.message !== null && this.phone !== null) {
+        this.formInvalid = false
+        this.isLoading = true
+        this.formSubmitted = false
+        emailjs.init('user_rDy0ktiWPEbQ2EIs72yDU')
+        this.contact_number = Math.random() * 100000 | 0
+        emailjs.send(
+          'template_name',//get this from emailjs dashboard
+          'template_someid',//get this from emailjs dashboard
+          {email: this.email, name: this.name, message: this.message, phone: this.phone}
+        ).then((response) => {
+          this.formSubmitted = true
+          this.isLoading = false
+          console.log('SUCCESS You just sent an email...', response)
+        }, (error) => {
+          console.log('FAILED Throw an error to user...', error)
+          this.isLoading = false
+        })
+      } else {
+        this.formInvalid = true
+      }*/
 
+        /*event.preventDefault()
+        console.log(this.ContactForm)
+        this.$axios.post('api/mailserver.php',
+        querystring.stringify(this.ContactForm)).then(res => {
+          this.sent = true
+        })*/
     }
   }
 }
 </script>
+
+
