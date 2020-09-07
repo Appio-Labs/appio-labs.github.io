@@ -338,8 +338,8 @@ NOTE: This file contains the styling for responsive Template.
 		max-width: 74%;
 	}
 	.navbar-light .navbar-toggler {
-		border: 1px solid #fff;
-		background: #fff;
+		border: 1px rgba(0, 0, 0, 0.7);
+		background: rgba(0, 0, 0, 0.7);
 	}
 	.iq-banner-03 .banner-text h1 {
 		font-size: 35px;
@@ -370,7 +370,7 @@ NOTE: This file contains the styling for responsive Template.
 		padding: 0;
 	}
 	.navbar-light .navbar-toggler span {
-		color: #4ac4f3;
+		color: #ffffff;
 	}
 	.navbar-toggler {
 		padding: 0px 10px;
@@ -384,7 +384,7 @@ NOTE: This file contains the styling for responsive Template.
 		display: none;
 	}
 	header .navbar .navbar-collapse {
-		background: #fff;
+		background: rgba(0, 0, 0, 0.7);
 		margin-top: 10px;
 	}
 	header .navbar .navbar-nav>li {
@@ -392,7 +392,7 @@ NOTE: This file contains the styling for responsive Template.
 	}
 	header .navbar .navbar-nav .nav-item a {
 		padding: 10px 15px !important;
-		color: #333;
+		color: #fff;
 	}
 	header#main-header .navbar .menu>li {
 		padding: 0px !important;
