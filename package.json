@@ -24,6 +24,7 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "cross-env": "^5.2.0",
+    "emailjs-com": "^2.6.3",
     "express": "^4.16.4",
     "imports-loader": "^1.1.0",
     "isotope-layout": "^3.0.6",

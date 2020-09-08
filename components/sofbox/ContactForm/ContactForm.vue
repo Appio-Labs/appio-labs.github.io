@@ -51,16 +51,17 @@
       <button id="submit" name="submit" type="submit" value="Send" :class="buttonDis ? 'button iq-mb-20 disabled' : 'button iq-mb-20 '">
         Send Message
       </button>
-      <div id="success" class="alert alert-success alert-dismissible fade show" role="alert">
+      <!--<div id="success" class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>Thank You, Your message has been received.</strong>.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </div>-->
     </div>
   </form>
 </template>
 <script>
+import emailjs from 'emailjs-com';
 export default {
   name: 'ContactForm',
   data () {
@@ -77,35 +78,12 @@ export default {
   },
   methods: {
     onSubmit ($event) {
-      /*event.preventDefault()
-      if (this.email !== null && this.name !== null && this.message !== null && this.phone !== null) {
-        this.formInvalid = false
-        this.isLoading = true
-        this.formSubmitted = false
-        emailjs.init('user_rDy0ktiWPEbQ2EIs72yDU')
-        this.contact_number = Math.random() * 100000 | 0
-        emailjs.send(
-          'template_name',//get this from emailjs dashboard
-          'template_someid',//get this from emailjs dashboard
-          {email: this.email, name: this.name, message: this.message, phone: this.phone}
-        ).then((response) => {
-          this.formSubmitted = true
-          this.isLoading = false
-          console.log('SUCCESS You just sent an email...', response)
+      emailjs.sendForm('service_2y7yurh', 'template_14ppd5a', event.target, 'user_cxwtwfZxUVzWr5LTgHCue') //Service ID, Template ID, User ID
+      .then((result) => {
+            alert('Thank You, Your message has been received.')
         }, (error) => {
-          console.log('FAILED Throw an error to user...', error)
-          this.isLoading = false
-        })
-      } else {
-        this.formInvalid = true
-      }*/
-
-        /*event.preventDefault()
-        console.log(this.ContactForm)
-        this.$axios.post('api/mailserver.php',
-        querystring.stringify(this.ContactForm)).then(res => {
-          this.sent = true
-        })*/
+            alert('Sorry, there was an error while sending the message, please try it again later.')
+        });
     }
   }
 }

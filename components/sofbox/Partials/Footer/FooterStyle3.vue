@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col-sm-12 text-center">
           <div class="footer-copyright iq-pt-40 iq-font-white">
-            © <span id="copyright"> 2020</span> <a href="javascript:void(0)" class="text-green">Appio ÖU.</a> All Rights Reserved
+            © <span id="copyright"> 2020</span> <a href="javascript:void(0)" class="text-green">Appio OÜ.</a> All Rights Reserved
           </div>
         </div>
       </div>
