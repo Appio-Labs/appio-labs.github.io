@@ -1,8 +1,8 @@
 {
-  "name": "sofbox-vue",
+  "name": "appio",
   "version": "1.0.0",
-  "description": "Sofbox Vue Landing page",
-  "author": "Goldenmace",
+  "description": "Appio Landing page",
+  "author": "appio-ou",
   "private": true,
   "scripts": {
     "dev": "nuxt",
