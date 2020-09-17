@@ -69,6 +69,31 @@
   </div>
 </template>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCR5CwdgEmhgSU7kV6lcQnvjqTziI2s35s",
+    authDomain: "appio-labs.firebaseapp.com",
+    databaseURL: "https://appio-labs.firebaseio.com",
+    projectId: "appio-labs",
+    storageBucket: "appio-labs.appspot.com",
+    messagingSenderId: "314386062516",
+    appId: "1:314386062516:web:c31c7417a3872591874be1",
+    measurementId: "G-GKV76DETS0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <script>
 import Home from '../components/LandingPage1/Home'
 import About from '../components/LandingPage1/About'
