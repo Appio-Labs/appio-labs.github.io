@@ -1,5 +1,5 @@
 export const menu = [
-  {
+  /*{
     href: '/landing-page-1',
     title: 'Landing page 1'
   },
@@ -34,11 +34,11 @@ export const menu = [
   {
     href: '/landing-page-9',
     title: 'Landing page 9'
-  }
+  }*/
 // eslint-disable-next-line semi
 ];
 export const saasmenu = [
-  {
+  /*{
     href: '/saas-main',
     title: 'Saas Main'
   },
@@ -73,6 +73,6 @@ export const saasmenu = [
   {
     href: '/help-desk',
     title: 'Help Desk'
-  }
+  }*/
 
 ]
