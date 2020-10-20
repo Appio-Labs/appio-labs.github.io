@@ -5,10 +5,10 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="text-uppercase iq-font-white iq-tw-3" >
-              Building <b class="iq-tw-7">software</b> to help
+              {{ $t('home.title1') }} <b class='iq-tw-7'>software</b> {{ $t('home.title2') }}
             </h1>
             <p class="iq-font-white iq-pt-15 iq-mb-40">
-              We are a company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions.
+              {{ $t('home.introduction') }}
             </p>
             <!--<div class="waves-box">
               <a href="http://www.youtube.com/watch?v=kzyFmrFky7Y" class="iq-video popup-youtube" target="_blank"><i class="ion-ios-play-outline" /></a>

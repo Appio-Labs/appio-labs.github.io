@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home" : "Inicio",
+    "about" : "Sobre Nosotros",
+    "service" : "Servicios",
+    "contact" : "Contacto",
+    "language" : "ING" 
+  },
+  "home": {
+    "title1": "Creando",
+    "title2": "para ayudar",
+    "introduction": "Somos una empresa de transformación digital y desarrollo, diseño y consultoría de software que ofrece soluciones de ingeniería de vanguardia."
+  },
+  "about": {
+    "title": "À propos",
+    "introduction": "Cette page est faite pour vous donner plus d'informations."
+  },
+  "test" : "Prueba"
+}

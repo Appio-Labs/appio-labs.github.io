@@ -17,18 +17,19 @@ export default {
       navItems: [
         {
           href: '#iq-home',
-          title: 'Home',
+          title: 'header.home',
           active: true,
           children: false,
           child: menu
         },
-        { href: '#how-it-works', title: 'About' },
-        { href: '#software-features', title: 'Service' },
+        { href: '#how-it-works', title: 'header.about' },
+        { href: '#software-features', title: 'header.service' },
         /* { href: '#great-screenshots', title: 'Screenshots' }, */
         /* { href: '#pricing', title: 'Pricing' }, */
         /* { href: '#team', title: 'Team' },
         { href: '#blog', title: 'Blog' }, */
-        { href: '#contact-us', title: 'Contact' }
+        { href: '#contact-us', title: 'header.contact' },
+        {href: "/es", title: 'header.language'}
       ]
     }
   },

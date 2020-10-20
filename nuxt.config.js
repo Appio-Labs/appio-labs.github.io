@@ -36,12 +36,16 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~plugins/sofbox.js'],
+  plugins: [
+  '~plugins/sofbox.js',
+  '~plugins/i18n.js'
+  ],
 
   target: 'static',
 
   router: {
-    base: '/'
+    base: '/',
+    middleware: 'i18n'
   },
 
   /*

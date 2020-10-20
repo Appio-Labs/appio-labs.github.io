@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home" : "Home",
+    "about" : "About",
+    "service" : "Service",
+    "contact" : "Contact",
+    "language" : "SPA" 
+  },
+  "home": {
+    "title1": "Building",
+    "title2": "to help",
+    "introduction": "We are company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  },
+  "test" : "Test"
+}
