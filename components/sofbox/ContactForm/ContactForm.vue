@@ -7,7 +7,7 @@
           v-model="mailData.name"
           class="require"
           type="text"
-          placeholder="Name*"
+          :placeholder="$t('contact.name')"
           name="name"
           required
         >
@@ -18,7 +18,7 @@
           v-model="mailData.email"
           class="require"
           type="email"
-          placeholder="Email*"
+          :placeholder="$t('contact.email')"
           name="email"
           required
         >
@@ -29,7 +29,7 @@
           v-model="mailData.phone"
           class="require"
           type="text"
-          placeholder="Phone*"
+          :placeholder="$t('contact.phone')"
           name="phone"
           required
         >
@@ -39,7 +39,7 @@
           id="contact_message"
           v-model="mailData.message"
           class="input-message require"
-          placeholder="Comment*"
+          :placeholder="$t('contact.comment')"
           rows="5"
           name="message"
           required></textarea>
@@ -49,7 +49,7 @@
         <!--<re-captcha (resolved)="resolved($event)" class="google-recaptcha" size="invisible" siteKey="6LdoGLQUAAAAAHXWWr3HKFpCmEm768SZ8acyeRKq"></re-captcha>-->
       </div>
       <button id="submit" name="submit" type="submit" value="Send" :class="buttonDis ? 'button iq-mb-20 disabled' : 'button iq-mb-20 '">
-        Send Message
+        {{ $t('contact.send') }}
       </button>
       <!--<div id="success" class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>Thank You, Your message has been received.</strong>.

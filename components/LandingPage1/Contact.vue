@@ -4,7 +4,7 @@
       <div class="row justify-content-end">
         <div class="col-md-6 col-lg-4">
           <div class="iq-get-in">
-            <h4 class="iq-tw-7 iq-mb-20">Get in Touch</h4>
+            <h4 class="iq-tw-7 iq-mb-20">{{ $t('contact.title') }}</h4>
             <ContactForm />
           </div>
         </div>

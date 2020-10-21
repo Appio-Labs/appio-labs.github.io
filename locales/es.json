@@ -12,8 +12,45 @@
     "introduction": "Somos una empresa de transformación digital y desarrollo, diseño y consultoría de software que ofrece soluciones de ingeniería de vanguardia."
   },
   "about": {
-    "title": "À propos",
-    "introduction": "Cette page est faite pour vous donner plus d'informations."
+    "title": "¿Qué es appio?",
+    "introduction": "Appio reúne a una comunidad de desarrolladores de software y arquitectos, y se asocia con otros expertos de la industria para brindarte el mejor equipo para ayudarte a transformar tu idea en un producto competitivo y escalable.",
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "Nuestros diseñadores y desarrolladores web se dedican a crear páginas web de calidad, eficaces y atractivas. Nuestro estilo de diseño atrevido y ultralimpio se combinan para producir productos de alta calidad."
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "description": "Nuestros desarrolladores de aplicaciones móviles tienen más de una década de experiencia en la creación de soluciones que satisfacen las necesidades del mercado, potencian la identidad de marca y fomentan el crecimiento."
+    },
+    "arquitecture": {
+      "title": "Arquitectura Software",
+      "description": "Realizamos análisis comerciales iniciales de la solución y creamos la arquitectura del futuro producto, ofreciendo un ciclo completo de servicios de diseño, integración, soporte y gestión de aplicaciones."
+    }
   },
-  "test" : "Prueba"
+  "service": {
+    "title": "¿Qué podemos hacer en appio?",
+    "description1": "Con appio puedes crear páginas web y aplicaciones convincentes y elegantes que se adapten a tu negocio.",
+    "description2": "Ya sea nativo, multiplataforma o web, estamos seguros de que podemos crear algo ideal para tí. Nuestro objetivo es hacer realidad tu visión."
+  },
+  "features" : {
+    "title": "Oferta de Servicios",
+    "description": "Appio ofrece una variedad de servicios de diseño y desarrollo, desde la creación de soluciones de desarrollo de software y diseños adaptativos hasta la creación de experiencias personalizadas utilizando la tecnología más avanzada y probada en el mercado.",
+    "feature1": "Consultoría y prototipado.",
+    "feature2": "Diseño UI/UX.",
+    "feature3": "Desarrollo de software personalizado.",
+    "feature4": "Testing y QA automatizado.",
+    "feature5": "Mantenimiento y soporte posterior a la garantía."
+  },
+  "contact" : {
+    "title": "Ponte en Contacto",
+    "name": "Nombre*",
+    "email": "Email*",
+    "phone": "Teléfono*",
+    "comment": "Comentario*",
+    "send": "Enviar Mensaje"
+  },
+  "copyright" : {
+    "year": "© 2020",
+    "rights": "Todos los derechos reservados"
+  }
 }

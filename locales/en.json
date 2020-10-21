@@ -1,19 +1,56 @@
 {
-  "header": {
+  "header" : {
     "home" : "Home",
     "about" : "About",
     "service" : "Service",
     "contact" : "Contact",
     "language" : "SPA" 
   },
-  "home": {
+  "home" : {
     "title1": "Building",
     "title2": "to help",
     "introduction": "We are company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions."
   },
-  "about": {
-    "title": "About",
-    "introduction": "This page is made to give you more informations."
+  "about" : {
+    "title": "What is appio?",
+    "introduction": "Appio brings together a community of software developers & architects, and partners with other experts in the industry to provide you with the best team to help you transform your idea into a powerful and scalable product.",
+    "web": {
+      "title": "Web Development",
+      "description": "Our web designers and developers are dedicated to creating powerful, effective and engaging websites. Our bold and ultra-clean design style combine to produce high quality products."  
+    },
+    "mobile" : {
+      "title": "Mobile Development",
+      "description": "Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion."
+    },
+    "arquitecture" : {
+      "title": "Software Arquitecture",
+      "description": "We do initial business analytics of the solution and create architecture of the future product, offering a full cycle of application design, integration, support and management services."  
+    }
   },
-  "test" : "Test"
+  "service" : {
+    "title": "What can appio do?",
+    "description1": "With appio you can create beautiful and elegant websites and apps that suits your business.",
+    "description2": "Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality."
+  },
+  "features" : {
+    "title": "Software Features",
+    "description": "Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.",
+    "feature1": "Consulting and prototyping.",
+    "feature2": "UI/UX design.",
+    "feature3": "Custom software development.",
+    "feature4": "Automated QA and testing.",
+    "feature5": "Maintenance and post-warranty support."
+  },
+  "contact" : {
+    "title": "Get in Touch",
+    "name": "Name*",
+    "email": "Email*",
+    "phone": "Phone*",
+    "comment": "Comment*",
+    "send": "Send Message"
+  },
+  "copyright" : {
+    "year": "© 2020",
+    "rights": "All Rights Reserved"
+  }
 }

@@ -19,7 +19,7 @@
               <div class="col-sm-12">
                 <div class="heading-title white iq-mb-25">
                   <h3 class="title iq-tw-7">
-                    Get in Touch
+                    {{ $t('contact.title') }}
                   </h3>
                 </div>
               </div>

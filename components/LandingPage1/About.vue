@@ -5,8 +5,8 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="heading-title">
-              <h3 class="title iq-tw-7">What is appio?</h3>
-              <p>Appio brings together a community of software developers & architects, and partners with other experts in the industry to provide you with the best team to help you transform your idea into a powerful and scalable product.</p>
+              <h3 class="title iq-tw-7"> {{ $t('about.title') }} </h3>
+              <p>{{ $t('about.introduction') }}</p>
             </div>
           </div>
         </div>
@@ -16,9 +16,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid center-block" alt="#">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  Web Development
+                  {{ $t('about.web.title') }}
                 </h5>
-                <p>Our web designers and developers are dedicated to creating powerful, effective and engaging websites. Our bold design style and use of ultra-clean combine to produce high quality products.</p>
+                <p>{{ $t('about.web.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -27,9 +27,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon2.png" class="img-fluid" alt="#">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  Mobile Development
+                  {{ $t('about.mobile.title') }}
                 </h5>
-                <p>Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion.</p>
+                <p>{{ $t('about.mobile.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -38,9 +38,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon3.png" class="img-fluid" alt="#">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  Software Architecture
+                  {{ $t('about.arquitecture.title') }}
                 </h5>
-                <p>We do initial business analytics of the solution and create architecture of the future product, offering a full cycle of application design, integration, support and management services.</p>
+                <p>{{ $t('about.arquitecture.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -64,12 +64,14 @@
       <div slot="cardBody" class="col-lg-6 iq-pt-60">
         <div class="heading-title left text-left white">
           <h3 class="iq-tw-7 iq-mb-25 title">
-            What can appio do?
+            {{ $t('service.title') }}
           </h3>
         </div>
-        <p>With appio you can create beautiful and elegant websites and apps that suits your business. </p>
+        <p> 
+          {{ $t('service.description1') }}
+        </p>
         <p class="iq-mt-20">
-          Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality.
+          {{ $t('service.description2') }}
         </p>
         <!--<h6 class="iq-tw-6 iq-mb-15 iq-mt-25">
           Discover our best ever services.
@@ -90,25 +92,25 @@
       <div slot="cardBody" class="col-lg-6 offset-lg-6">
         <div class="heading-title left text-left">
           <h3 class="iq-tw-7 iq-mtb-25 title">
-            Software Features
+            {{ $t('features.title') }}
           </h3>
         </div>
-        <p>Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.</p>
+        <p>{{ $t('features.description') }}</p>
         <ul class="iq-mt-40 iq-list">
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Consulting and prototyping.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature1') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">UI/UX design.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature2') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Custom software development.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature3') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Automated QA and testing.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature4') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Maintenance and post-warranty support.</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature5') }}</span>
           </li>
         </ul>
       </div>
