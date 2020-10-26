@@ -1,5 +1,5 @@
 <template>
-  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage" class-names="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 iq-parallax">
+  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage" class-names="iq-banner overview-block-pt iq-bg-over iq-over-blue-50 iq-parallax">
     <div class="container-fluid">
       <div class="banner-text">
         <div class="row">

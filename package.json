@@ -2,7 +2,7 @@
   "name": "appio",
   "version": "1.0.0",
   "private": true,
-  "description": "Appio Landing page",
+  "description": "We help people build digital products | mobile apps and web software development",
   "author": "appio-ou",
   "scripts": {
     "serve": "nuxt serve",

@@ -13,7 +13,7 @@
       <!--<Blog />-->
       <!--<Client />-->
       <footer id="contact-us">
-        <ParallaxStyle1 :bg-image="require('../../assets/images/bg/01.jpg')" ids="iq-home" class-names="iq-pt-100 iq-pb-30 iq-newsletter iq-bg-over iq-over-blue-90 jarallax">
+        <ParallaxStyle1 :bg-image="require('../../assets/images/bg/01.jpg')" ids="iq-home" class-names="iq-pt-100 iq-pb-30 iq-newsletter iq-bg-over iq-over-blue-50 jarallax">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">

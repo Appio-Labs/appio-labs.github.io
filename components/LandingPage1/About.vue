@@ -47,7 +47,7 @@
         </div>
       </div>
     </section>
-    <ParallaxStyle1 class-names="overview-block-pt iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" :bg-image="image" ids="counter">
+    <ParallaxStyle1 class-names="overview-block-pt iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-50 iq-font-white iq-parallax" :bg-image="image" ids="counter">
     <div class="container">
       <div class="row">
         <div class="iq-objectsnew">
