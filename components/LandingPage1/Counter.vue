@@ -1,5 +1,5 @@
 <template>
-  <ParallaxStyle1 class-names="iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" :bg-image="image" ids="counter">
+  <ParallaxStyle1 class-names="iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-50 iq-font-white iq-parallax" :bg-image="image" ids="counter">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 text-left">

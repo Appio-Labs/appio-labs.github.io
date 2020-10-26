@@ -1,5 +1,5 @@
 <template>
-  <ParallaxStyle1 ids="compare-services" :bg-image="require('../../assets/images/bg/05.jpg')" class-names="iq-compare-services overview-block-ptb iq-over iq-over-blue-90 iq-parallax">
+  <ParallaxStyle1 ids="compare-services" :bg-image="require('../../assets/images/bg/05.jpg')" class-names="iq-compare-services overview-block-ptb iq-over iq-over-blue-50 iq-parallax">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
