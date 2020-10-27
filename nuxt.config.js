@@ -1,5 +1,5 @@
 export default {
-  mode: 'universal',
+  //mode: 'universal',
   /*
    ** Headers of the page
    */
@@ -64,6 +64,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/firebase',
+    '@nuxtjs/sitemap',
   ],
   firebase: {
     config: {
@@ -81,6 +82,21 @@ export default {
       performance: true,
     }
   },
+  sitemap: {
+    hostname: 'https://appio.site',
+    lastmod: '2020-10-27',
+    sitemaps: [
+      {
+        path: '/sitemap.xml',
+        routes: ['/', '/es/'],
+        gzip: true
+      }/*, {
+        path: '/sitemap.xml',
+        routes: ['bar/1', 'bar/2'],
+        exclude: ['/**']
+      }*/
+    ]
+  },
   /*
    ** Build configuration
    */
@@ -88,13 +104,13 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extractCSS: {
+    /*extractCSS: {
       allChunks: true
-    },
+    },*/
     splitChunks: {
       layouts: true
     },
-    vendor: ['jquery', 'bootstrap'],
+    //vendor: ['jquery', 'bootstrap'],
     extend (config, ctx) {},
     babel: { compact: true }
   },
