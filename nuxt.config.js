@@ -87,7 +87,7 @@ export default {
     lastmod: '2020-10-27',
     sitemaps: [
       {
-        path: '/sitemap.xml',
+        path: 'sitemap.xml',
         routes: ['/', '/es/'],
         gzip: true
       }/*, {
