@@ -4,7 +4,7 @@
     "about" : "Sobre Nosotros",
     "service" : "Servicios",
     "contact" : "Contacto",
-    "language" : "ING" 
+    "language" : "Español" 
   },
   "home": {
     "title1": "Creando",
@@ -48,6 +48,10 @@
     "phone": "Teléfono*",
     "comment": "Comentario*",
     "send": "Enviar Mensaje"
+  },
+  "language" : {
+    "english": "Inglés",
+    "spanish": "Español"
   },
   "copyright" : {
     "year": "© 2020",

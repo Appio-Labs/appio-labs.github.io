@@ -76,3 +76,15 @@ export const saasmenu = [
   }*/
 
 ]
+
+export const languages = [
+  {
+    href: '/',
+    title: 'language.english'
+  },
+  {
+    href: '/es',
+    title: 'language.spanish'
+  },
+// eslint-disable-next-line semi
+];

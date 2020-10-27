@@ -23,14 +23,16 @@
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto w-100 justify-content-end menu">
                 <li v-for="(option,index) in navItemList" :key="index" class="nav-item menu-item">
-                  <nuxt-link class="nav-link" v-if="$i18n.locale === 'en' && option.title == 'header.language'" :class="option.active !== undefined && option.active ? ' active ' : ''" :to="option.href + $route.fullPath">
+                  <a class="nav-link" v-if="$i18n.locale === 'en' && option.title == 'header.language'" :class="option.active !== undefined && option.active ? ' active ' : ''">
+                    <img alt="english" class="img-fluid" width="15" height="15" :src="require('../../../../assets/images/flags/flag-en.png')">
                     {{ $t(option.title) }}
                     <i v-if="option.children" class="fa fa-angle-down toggledrop" aria-hidden="true" />
-                  </nuxt-link>
-                  <nuxt-link class="nav-link" v-else-if="$i18n.locale === 'es' && option.title == 'header.language'" :class="option.active !== undefined && option.active ? ' active ' : ''" :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
+                  </a>
+                  <a class="nav-link" v-else-if="$i18n.locale === 'es' && option.title == 'header.language'" :class="option.active !== undefined && option.active ? ' active ' : ''">
+                    <img alt="español" class="img-fluid" width="15" height="15" :src="require('../../../../assets/images/flags/flag-es.png')">
                     {{ $t(option.title) }}
                     <i v-if="option.children" class="fa fa-angle-down toggledrop" aria-hidden="true" />
-                  </nuxt-link>
+                  </a>
                   <a class="nav-link" v-else :class="option.active !== undefined && option.active ? ' active ' : ''" :href="option.href" @click="jumpTo(option.href)">
                     {{ $t(option.title) }}
                     <i v-if="option.children" class="fa fa-angle-down toggledrop" aria-hidden="true" />
@@ -42,10 +44,15 @@
                       :key="index"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506"
                     >
-                      <nuxt-link v-if="$i18n.locale === 'en' && child.title == 'links.spanish'" :to="child.href + $route.fullPath">
+                      <nuxt-link v-if="child.title == 'language.english'" :to="$route.fullPath.replace(/^\/[^\/]+/, '')" class="nav-item menu-item" active-class="none" exact>
+                        <img alt="english" class="img-fluid" width="15" height="15" :src="require('../../../../assets/images/flags/flag-en.png')">
                         <span>{{ $t(child.title) }}</span>
                       </nuxt-link>
-                      <nuxt-link v-else :to="child.href">
+                      <nuxt-link v-else-if="child.title == 'language.spanish'" :to="child.href + $route.fullPath.replace(/^\/[^\/]+/, '')" class="nav-item menu-item" active-class="none" exact>
+                        <img alt="spanish" class="img-fluid" width="15" height="15" :src="require('../../../../assets/images/flags/flag-es.png')">
+                         <span>{{ $t(child.title) }}</span>
+                      </nuxt-link>
+                      <nuxt-link v-else :to="child.href" class="nav-item menu-item" active-class="none" exact>
                          <span>{{ $t(child.title) }}</span>
                       </nuxt-link>
                     </li>

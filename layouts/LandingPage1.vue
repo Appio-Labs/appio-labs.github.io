@@ -8,6 +8,7 @@
 <script>
 import logoImg from '../assets/images/logo-inline.png'
 import { menu } from '~/config/constant'
+import { languages } from '~/config/constant'
 export default {
   name: 'LandingPage1',
   data () {
@@ -29,7 +30,12 @@ export default {
         /* { href: '#team', title: 'Team' },
         { href: '#blog', title: 'Blog' }, */
         { href: '#contact-us', title: 'header.contact' },
-        {href: "/es", title: 'header.language'}
+        {
+          title: 'header.language',
+          active: false,
+          children: true,
+          child: languages
+         }
       ]
     }
   },

@@ -4,7 +4,7 @@
     "about" : "About",
     "service" : "Service",
     "contact" : "Contact",
-    "language" : "SPA" 
+    "language" : "English" 
   },
   "home" : {
     "title1": "Building",
@@ -48,6 +48,10 @@
     "phone": "Phone*",
     "comment": "Comment*",
     "send": "Send Message"
+  },
+  "language" : {
+    "english": "English",
+    "spanish": "Spanish"
   },
   "copyright" : {
     "year": "© 2020",
