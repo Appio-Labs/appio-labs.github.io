@@ -77,7 +77,8 @@ export default {
       measurementId: "G-GKV76DETS0"
     },
     services: {
-      analytics: true
+      analytics: true,
+      performance: true,
     }
   },
   /*
