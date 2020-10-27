@@ -38,7 +38,8 @@ export default {
    */
   plugins: [
   '~plugins/sofbox.js',
-  '~plugins/i18n.js'
+  '~plugins/i18n.js',
+  '~plugins/firebase.js'
   ],
 
   target: 'static',
