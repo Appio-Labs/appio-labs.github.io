@@ -6,9 +6,6 @@ set -e
 # build
 npm run generate
 
-# copy robots.txt
-cp robots.txt dist
-
 # navigate into the build output directory
 cd dist
 
