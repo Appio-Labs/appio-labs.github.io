@@ -1,6 +1,6 @@
 <template>
   <div data-spy="scroll" data-offset="80">
-    <Loader />
+    <!--<Loader />-->
     <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" :styled-logo="styleLogo" />
     <nuxt />
   </div>
