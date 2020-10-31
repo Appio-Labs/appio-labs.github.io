@@ -39,14 +39,14 @@ export default {
     return {
       images: [
         { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
-        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://hermez.io" },
-        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://iden3.io" },
+        { src: require('../../assets/images/clients/02.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "iden3", href: "https://iden3.io" },
         { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
-        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://iden3.io" },
-        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/02.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "iden3", href: "https://iden3.io" },
         { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
-        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://iden3.io" },
-        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/02.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "iden3", href: "https://iden3.io" },
       ]
     }
   }
