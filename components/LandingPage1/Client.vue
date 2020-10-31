@@ -1,6 +1,13 @@
 <template>
-  <div class="iq-our-clients white-bg iq-ptb-50">
+  <!--Client-->
+  
+  <div class="iq-our-clients white-bg iq-ptb-80">
     <div class="container">
+      <div class="heading-title left text-left">
+          <h3 class="iq-tw-7 title">
+            {{ $t('projects.title') }}
+          </h3>
+        </div>
       <div class="row">
         <div class="col-lg-12 col-md-12">
           <div
@@ -9,20 +16,21 @@
             data-loop="true"
             data-nav="true"
             data-dots="false"
-            data-items="5"
-            data-items-laptop="5"
+            data-items="6"
+            data-items-laptop="6"
             data-items-tab="4"
             data-items-mobile="3"
             data-items-mobile-sm="1"
             data-margin="30" >
             <div v-for="(option,index) in images" :key="index" class="item">
-              <img class="img-fluid center-block" :src="option.src" alt="#">
+              <a :href="option.href"><img class="img-fluid center-block" :src="option.src" :alt="option.alt"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!--Client end-->
 </template>
 <script>
 export default {
@@ -30,14 +38,15 @@ export default {
   data () {
     return {
       images: [
-        { src: require('../../assets/images/clients/01.png') },
-        { src: require('../../assets/images/clients/02.png') },
-        { src: require('../../assets/images/clients/03.png') },
-        { src: require('../../assets/images/clients/04.png') },
-        { src: require('../../assets/images/clients/05.png') },
-        { src: require('../../assets/images/clients/06.png') },
-        { src: require('../../assets/images/clients/07.png') },
-        { src: require('../../assets/images/clients/09.png') }
+        { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
+        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://iden3.io" },
+        { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
+        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://iden3.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://hermez.io" },
+        { src: require('../../assets/images/clients/01.png'), alt: "Cinesa", href: "https://www.cinesa.es"},
+        { src: require('../../assets/images/clients/02.png'), alt: "iden3", href: "https://iden3.io" },
+        { src: require('../../assets/images/clients/03.png'), alt: "Hermez", href: "https://hermez.io" },
       ]
     }
   }

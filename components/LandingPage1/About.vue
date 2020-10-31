@@ -11,9 +11,9 @@
           </div>
         </div>
         <div class="row heading-title">
-          <div class="col-md-12 col-lg-4">
+          <div class="col-md-12 col-lg-3">
             <CardStyle5 step="1">
-              <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid center-block" alt="#">
+              <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid center-block" alt="web development">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   {{ $t('about.web.title') }}
@@ -22,9 +22,9 @@
               </div>
             </CardStyle5>
           </div>
-          <div class="col-md-12 col-lg-4 r-mt-30">
+          <div class="col-md-12 col-lg-3 r-mt-30">
             <CardStyle5 step="2">
-              <img slot="cardMedia" src="../../assets/images/services/icon2.png" class="img-fluid" alt="#">
+              <img slot="cardMedia" src="../../assets/images/services/icon2.png" class="img-fluid" alt="mobile development">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
                   {{ $t('about.mobile.title') }}
@@ -33,14 +33,25 @@
               </div>
             </CardStyle5>
           </div>
-          <div class="col-md-12 col-lg-4 r-mt-30">
+          <div class="col-md-12 col-lg-3 r-mt-30">
             <CardStyle5 step="3">
-              <img slot="cardMedia" src="../../assets/images/services/icon3.png" class="img-fluid" alt="#">
+              <img slot="cardMedia" src="../../assets/images/services/icon3.png" class="img-fluid" alt="automation testing">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  {{ $t('about.arquitecture.title') }}
+                  {{ $t('about.qa.title') }}
                 </h5>
-                <p>{{ $t('about.arquitecture.description') }}</p>
+                <p>{{ $t('about.qa.description') }}</p>
+              </div>
+            </CardStyle5>
+          </div>
+          <div class="col-md-12 col-lg-3 r-mt-30">
+            <CardStyle5 step="4">
+              <img slot="cardMedia" src="../../assets/images/services/icon4.png" class="img-fluid" alt="design">
+              <div slot="cardBody">
+                <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
+                  {{ $t('about.design.title') }}
+                </h5>
+                <p>{{ $t('about.design.description') }}</p>
               </div>
             </CardStyle5>
           </div>

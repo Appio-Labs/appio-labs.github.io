@@ -53,10 +53,10 @@ export default {
 </script>
 <style>
   @import url('../assets/css/color/style.css');
-  .wow {
+  /*.wow {
     visibility: hidden;
-  }
-  @keyframes fadeInUp {
+  }*/
+  /*@keyframes fadeInUp {
     0% {
       opacity: 0;
       -webkit-transform: translate3d(0, 30%, 0);
@@ -74,5 +74,5 @@ export default {
   .fadeInUp {
     animation-name: fadeInUp;
     animation-timing-function: ease-out;
-  }
+  }*/
 </style>

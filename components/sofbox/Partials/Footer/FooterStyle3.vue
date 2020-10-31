@@ -48,9 +48,23 @@
         </div>-->
         <!--<slot />
       </div>-->
+      <div class="row justify-content-center iq-pt-40">
+          <div class="text-center iq-plr-40">
+              <li><a href="https://twitter.com/appio18"><i class="fab fa-twitter" /></a></li>
+          </div>
+          <div class="text-center iq-plr-40">
+              <li><a href="https://www.facebook.com/appio.staff.9"><i class="fab fa-facebook" /></a></li>
+          </div>
+          <div class="text-center iq-plr-40">
+              <li><a href="https://www.linkedin.com/company/appio-ou"><i class="fab fa-linkedin" /></a></li>
+          </div>
+          <div class="text-center iq-plr-40">
+              <li><a href="https://github.com/Appio-Labs"><i class="fab fa-github" /></a></li>
+          </div>
+      </div>
       <div class="row">
         <div class="col-sm-12 text-center">
-          <div class="footer-copyright iq-pt-40 iq-font-white">
+          <div class="footer-copyright iq-pt-20 iq-font-white">
            <span id="copyright">{{$t('copyright.year')}}</span> <a href="javascript:void(0)" class="text-green">Appio OÜ.</a> {{$t('copyright.rights')}}
           </div>
         </div>

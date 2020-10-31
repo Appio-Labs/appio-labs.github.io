@@ -9,6 +9,21 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 */
 
-.far, .fab, .fas{
+.far, .fas{
     font-weight: 900 !important;
+}
+
+.fab {
+    font-weight: 900 !important;
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+  
+.fab:hover {
+    color: #D1F250;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }

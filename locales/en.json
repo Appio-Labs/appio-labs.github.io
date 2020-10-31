@@ -22,9 +22,13 @@
       "title": "Mobile Development",
       "description": "Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion."
     },
-    "arquitecture" : {
-      "title": "Software Arquitecture",
-      "description": "We do initial business analytics of the solution and create architecture of the future product, offering a full cycle of application design, integration, support and management services."  
+    "qa" : {
+      "title": "Automation & Testing",
+      "description": "Our software quality department handles functional, performance and compatibility testing, as well as translation and localization. Also we offer process automation solutions."  
+    },
+    "design" : {
+      "title": "UI/UX Design",
+      "description": "Our designers create visually appealing, elegant prototypes, easy to use and oriented to the target audience of your business. We optimize the design to efficiently organize the information to the user."  
     }
   },
   "service" : {
@@ -40,6 +44,9 @@
     "feature3": "Custom software development.",
     "feature4": "Automated QA and testing.",
     "feature5": "Maintenance and post-warranty support."
+  },
+  "projects" : {
+    "title" : "Featured Projects"
   },
   "contact" : {
     "title": "Get in Touch",

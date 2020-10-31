@@ -22,9 +22,13 @@
       "title": "Desarrollo Móvil",
       "description": "Nuestros desarrolladores de aplicaciones móviles tienen más de una década de experiencia en la creación de soluciones que satisfacen las necesidades del mercado, potencian la identidad de marca y fomentan el crecimiento."
     },
-    "arquitecture": {
-      "title": "Arquitectura Software",
-      "description": "Realizamos análisis comerciales iniciales de la solución y creamos la arquitectura del futuro producto, ofreciendo un ciclo completo de servicios de diseño, integración, soporte y gestión de aplicaciones."
+    "qa" : {
+      "title": "Automatización y Testing",
+      "description": "Nuestro departamento de calidad de software se encarga de realizar pruebas funcionales, rendimiento, compatibilidad, traducción y localización, así como soluciones de automatización de procesos."  
+    },
+    "design" : {
+      "title": "Diseño UI/UX",
+      "description": "Nuestros diseñadores crean prototipos visualmente atractivos, elegantes, con facilidad de uso y orientados al público objetivo de tu negocio. Optimizamos el diseño para organizar de forma eficiente la información al usuario."  
     }
   },
   "service": {
@@ -40,6 +44,9 @@
     "feature3": "Desarrollo de software personalizado.",
     "feature4": "Testing y QA automatizado.",
     "feature5": "Mantenimiento y soporte posterior a la garantía."
+  },
+  "projects" : {
+    "title" : "Proyectos Destacados"
   },
   "contact" : {
     "title": "Ponte en Contacto",
