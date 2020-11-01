@@ -1,5 +1,5 @@
 <template>
-  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage" class-names="iq-banner overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax">
+  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage" class-names="iq-banner iq-pb-100 overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax">
     <div class="container-fluid" >
       <div class="banner-text">
         <div class="row ">
@@ -7,10 +7,10 @@
             <h1 class="iq-font-white iq-tw-3" >
               {{ $t('home.title') }}
             </h1>
-            <p class="iq-font-white iq-pt-15 iq-pb-100">
+            <!--<p class="iq-font-white iq-pt-15 iq-pb-100">
               {{ $t('home.introduction') }}
-            </p>
-            <p class="iq-ptb-70"></p>
+            </p>-->
+            <!--<p class="iq-ptb-70"></p>-->
             <!--<div class="waves-box">
               <a href="http://www.youtube.com/watch?v=kzyFmrFky7Y" class="iq-video popup-youtube" target="_blank"><i class="ion-ios-play-outline" /></a>
               <div class="iq-waves">
@@ -19,7 +19,7 @@
                 <div class="waves wave-3" />
               </div>
             </div>-->
-            <!--<a href="javascript:void(0)" class="button bt-black iq-mt-5">Download</a>-->
+            <a href="#contact-us" class="button bt-home iq-mt-50">{{ $t('home.button') }}</a>
           </div>
           <div class="col-lg-6">
             <img class="banner-img" :src="require('../../assets/images/banner/01.png')" alt="">

@@ -8,7 +8,8 @@
   },
   "home" : {
     "title": "Web & Mobile apps Design & Development company",
-    "introduction": "We are company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions."
+    "introduction": "We are company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions.",
+    "button" : "Get in Touch"
   },
   "about" : {
     "title": "What is appio?",
