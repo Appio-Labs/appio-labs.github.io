@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="banner-objects">
+    <!--<div class="banner-objects">
       <span class="banner-objects-01" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-50px);">
         <img :src="require('../../assets/images/drive/03.png')" alt="drive02">
       </span>
@@ -37,7 +37,7 @@
       <span class="banner-objects-03 iq-fadebounce">
         <span class="iq-round" />
       </span>
-    </div>
+    </div>-->
   </ParallaxStyle1>
 </template>
 <script>
