@@ -2440,6 +2440,7 @@ header .navbar .navbar-brand {
 header .navbar .navbar-brand img {
   height: 60px;
   margin: 10px 0px;
+  
   transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -2468,7 +2469,7 @@ header .navbar .navbar-nav>li:last-child {
 }
 
 header .navbar .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: var(--secondary-theme-color);
   padding: 10px 0;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -2479,13 +2480,23 @@ header .navbar .navbar-nav .nav-item a:focus,
 header .navbar .navbar-nav .nav-item a.active,
 header .navbar .navbar-nav .nav-item a.active:focus,
 header .navbar .navbar-nav .nav-item a.active:hover {
-  color: #fff;
+  text-shadow:
+    -.22px -.22px 0 var(--secondary-theme-color),
+    .22px -.22px 0 var(--secondary-theme-color),
+    .22px .22px 0 var(--secondary-theme-color),
+    .22px .22px 0 var(--secondary-theme-color);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  color: --secondary-theme-color;
   background: none;
   box-shadow: none;
 }
 
 header .navbar .navbar-nav .nav-item a::before {
-  background: #fff;
+  background: var(--secondary-theme-color);
   bottom: 0;
   content: "";
   height: 2px;
@@ -2527,7 +2538,7 @@ header#main-header .navbar .menu li .sub-menu {
   left: 0;
   width: 200px;
   padding: 0;
-  background: #fff;
+  background: #1b2e32;
   margin: 0;
   text-align: left;
   -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
@@ -2610,7 +2621,7 @@ header#main-header .navbar .menu li a {
 }
 
 header#main-header .navbar .menu li .sub-menu li a:hover {
-  background: #fff;
+  background: #1b2e32;
   color: var(--primary-theme-color);
 }
 
@@ -2623,6 +2634,38 @@ header.menu-sticky {
   -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   background: rgba(74, 196, 243, 0.9);
+}
+
+header.menu-sticky .navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+  padding: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+header.menu-sticky .navbar .navbar-nav .nav-item a:hover,
+header.menu-sticky .navbar .navbar-nav .nav-item a:focus,
+header.menu-sticky .navbar .navbar-nav .nav-item a.active,
+header.menu-sticky .navbar .navbar-nav .nav-item a.active:focus,
+header.menu-sticky .navbar .navbar-nav .nav-item a.active:hover {
+  color: #ffffff;
+  background: none;
+  box-shadow: none;
+  text-shadow:
+    -.22px -.22px 0 #ffffff,
+    .22px -.22px 0  #ffffff,
+    .22px .22px 0  #ffffff,
+    .22px .22px 0  #ffffff;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+header.menu-sticky .navbar .navbar-nav .nav-item a::before {
+  background: var(--primary-theme-color);
+  
 }
 
 header.menu-sticky .navbar .navbar-brand img {
@@ -2814,10 +2857,10 @@ header.dark.menu-sticky {
 
 .iq-banner:after {
   content: "";
-  bottom: -5px;
+  bottom: 0px;
   left: 0;
   width: 100%;
-  height: 84px;
+  height: 375px;
   background: url('../images/banner/02.png') no-repeat 0 0;
   background-size: cover;
   display: inline-block;
@@ -2831,7 +2874,8 @@ header.dark.menu-sticky {
 }
 
 .iq-banner .banner-text h1 {
-  font-size: 64px;
+  font-size: 52px;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -4873,9 +4917,9 @@ svg #airplain {
 
 .iq-works-box:hover {
   border: solid transparent 1px;
-  -webkit-box-shadow: 0 0 40px rgba(var(--primary-rgb-theme-color), .4) !important;
-  -moz-box-shadow: 0 0 40px rgba(var(--primary-rgb-theme-color), .4) !important;
-  box-shadow: 0 0 40px rgba(var(--primary-rgb-theme-color), .4) !important;
+  -webkit-box-shadow: 0 0 40px rgba(var(--secondary-rgb-theme-color), .4) !important;
+  -moz-box-shadow: 0 0 40px rgba(var(--secondary-rgb-theme-color), .4) !important;
+  box-shadow: 0 0 40px rgba(var(--secondary-rgb-theme-color), .4) !important;
 }
 
 
@@ -9099,7 +9143,7 @@ Tab
 .iq-tab .nav-pills .show>.nav-link,
 .iq-tab .nav-pills .nav-link:hover {
   background: rgba(125, 210, 243, 0.7);
-  color: #ffffff;
+  color: --primary-theme-color;
 }
 
 .iq-tab.horizontal .nav-item {

@@ -1,8 +1,8 @@
 :root{
-  --primary-theme-color: #C6F50D;
+  --primary-theme-color: #D1F250;
   --secondary-theme-color: #1B2E32;
   /*--primary-theme-color: #1D232A;*/
   --white-theme-color: #1B2E32;
   /*--white-theme-color: #fff;*/
-  --primary-rgb-theme-color:27, 46, 50;
+  --secondary-rgb-theme-color:27, 46, 50;
 }

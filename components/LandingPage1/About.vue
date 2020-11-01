@@ -58,16 +58,16 @@
         </div>
       </div>
     </section>
-    <ParallaxStyle1 class-names="overview-block-pt iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-50 iq-font-white iq-parallax" :bg-image="image" ids="counter">
+    <ParallaxStyle1 class-names="iq-banner-03 overview-block-pt iq-ptb-100 iq-counter-box iq-bg-over iq-over-blue-50 iq-font-white iq-parallax" :bg-image="image" ids="counter">
     <div class="container">
       <div class="row">
         <div class="iq-objectsnew">
-          <span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
+          <!--<span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
             <img src="../../assets/images/drive/03.png" class="img-fluid" alt="drive02">
           </span>
           <span class="iq-objects-03" data-bottom="transform:translatex(50px)" data-top="transform:translatex(-100px);">
             <img src="../../assets/images/drive/04.png" class="img-fluid" alt="drive02">
-          </span>
+          </span>-->
           <span class="iq-objects-04 iq-fadebounce">
             <span class="iq-round"></span>
           </span>
@@ -84,12 +84,12 @@
         <p class="iq-mt-20">
           {{ $t('service.description2') }}
         </p>
-        <!--<h6 class="iq-tw-6 iq-mb-15 iq-mt-25">
+        <h6 class="iq-tw-6 iq-mb-15 iq-mt-50">
           Discover our best ever services.
         </h6>
-        <a href="javascript:void(0)" class="button iq-mt-20">Click Here</a>-->
+        <a href="javascript:void(0)" class="button iq-mt-20">Click Here</a>
       </div>
-      <div slot="cardMedia" class="col-lg-6 align-self-center">
+      <div slot="cardMedia" class="col-lg-6 align-self-center iq-pb-100">
         <img class="iq-works-img pull-right img-fluid" src="../../assets/images/drive/01.png" alt="drive01">
       </div>
       
