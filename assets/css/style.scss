@@ -84,7 +84,7 @@ Design and Developed by: iqonic.design
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -127,8 +127,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Meltix', sans-serif;
-  font-weight: normal;
+  font-family: 'Meltix';
+  font-weight: bold;
   color: --primary-theme-color;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -781,7 +781,7 @@ blockquote {
   border: none;
   position: relative;
   background: --primary-theme-color;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -852,7 +852,7 @@ blockquote {
   border: none;
   position: relative;
   background: #4ac3f3;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -880,7 +880,7 @@ blockquote {
   border: none;
   position: relative;
   background: #ffffff;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -908,7 +908,7 @@ blockquote {
   border: 2px solid #4ac3f3;
   position: relative;
   background: #ffffff;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -933,7 +933,7 @@ blockquote {
   border: 2px solid #fff;
   position: relative;
   background: transparent;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -958,7 +958,7 @@ blockquote {
   border: 2px solid #4ac3f3;
   position: relative;
   background: none;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2884,7 +2884,7 @@ header.dark.menu-sticky {
 
 .iq-banner .banner-text h1 {
   font-size: 50px;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Meltix', sans-serif;
   font-weight: bold;
   line-height: normal;
 }
