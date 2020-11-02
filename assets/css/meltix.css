@@ -2,49 +2,9 @@
 
 @font-face {
     font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_demo-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_italic_demo-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: bold,italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_italic_demo-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_demo-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_italic_demo-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
     src: url('../fonts/meltix_regular_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_regular_demo-webfont.woff') format('woff');
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -52,23 +12,23 @@
     font-family: 'Meltix';
     src: url('../fonts/meltix_bold_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_bold_demo-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: bold;
+    font-weight: bold;
+    font-style: normal;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Meltix';
     src: url('../fonts/meltix_bold_italic_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_bold_italic_demo-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: bold,italic;
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
     font-family: 'Meltix';
     src: url('../fonts/meltix_italic_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_italic_demo-webfont.woff') format('woff');
-    font-weight: 500;
+    font-weight: normal;
     font-style: italic;
 }
 
@@ -76,7 +36,7 @@
     font-family: 'Meltix';
     src: url('../fonts/meltix_light_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_light_demo-webfont.woff') format('woff');
-    font-weight: 500;
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -84,158 +44,9 @@
     font-family: 'Meltix';
     src: url('../fonts/meltix_light_italic_demo-webfont.woff2') format('woff2'),
          url('../fonts/meltix_light_italic_demo-webfont.woff') format('woff');
-    font-weight: 500;
+    font-weight: lighter;
     font-style: italic;
-}
+}*/
 
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_regular_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_regular_demo-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: bold;
-}
 
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_italic_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: bold,italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_italic_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_italic_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_regular_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_regular_demo-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_italic_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: bold,italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_italic_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_italic_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_regular_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_regular_demo-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_bold_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_bold_italic_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: bold,italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_italic_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_light_italic_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_light_italic_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Meltix';
-    src: url('../fonts/meltix_regular_demo-webfont.woff2') format('woff2'),
-         url('../fonts/meltix_regular_demo-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}

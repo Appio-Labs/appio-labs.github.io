@@ -32,9 +32,11 @@
     }
   },
   "service": {
-    "title": "¿Qué podemos hacer en appio?",
+    "title": "¿Qué hacemos en appio?",
     "description1": "Con appio puedes crear páginas web y aplicaciones convincentes y elegantes que se adapten a tu negocio.",
-    "description2": "Ya sea nativo, multiplataforma o web, estamos seguros de que podemos crear algo ideal para tí. Nuestro objetivo es hacer realidad tu visión."
+    "description2": "Ya sea nativo, multiplataforma o web, estamos seguros de que podemos crear algo ideal para tí. Nuestro objetivo es hacer realidad tu visión.",
+    "description3": "Descubre más sobre nuestros servicios",
+    "button": "Aprender más"
   },
   "features" : {
     "title": "Oferta de Servicios",

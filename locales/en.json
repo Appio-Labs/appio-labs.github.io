@@ -34,7 +34,9 @@
   "service" : {
     "title": "What can appio do?",
     "description1": "With appio you can create beautiful and elegant websites and apps that suits your business.",
-    "description2": "Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality."
+    "description2": "Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality.",
+    "description3": "Discover our best ever services",
+    "button": "Learn more"
   },
   "features" : {
     "title": "Software Features",

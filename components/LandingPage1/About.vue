@@ -85,9 +85,9 @@
           {{ $t('service.description2') }}
         </p>
         <h6 class="iq-tw-6 iq-mb-15 iq-mt-50">
-          Discover our best ever services.
+          {{ $t('service.description3') }}
         </h6>
-        <a href="javascript:void(0)" class="button iq-mt-20">Click Here</a>
+        <a href="javascript:void(0)" class="button iq-mt-20">{{ $t('service.button') }}</a>
       </div>
       <div slot="cardMedia" class="col-lg-6 align-self-center iq-pb-100">
         <img class="iq-works-img pull-right img-fluid" src="../../assets/images/drive/01.png" alt="drive01">

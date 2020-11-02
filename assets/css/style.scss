@@ -101,7 +101,8 @@ a,
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  color: #1D232A;
+  color: var(--secondary-theme-color);
+  
 }
 
 a:focus {
@@ -776,7 +777,7 @@ blockquote {
   color: --secondary-theme-color;
   cursor: pointer;
   padding: 12px 36px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   border: none;
   position: relative;
@@ -2482,23 +2483,16 @@ header .navbar .navbar-nav .nav-item a {
   padding: 10px 0;
   font-family: 'Meltix', sans-serif;
   font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
 }
 
-header .navbar .navbar-nav .nav-item a:hover,
-header .navbar .navbar-nav .nav-item a:focus,
-header .navbar .navbar-nav .nav-item a.active,
+/*header .navbar .navbar-nav .nav-item a:hover,
+header .navbar .navbar-nav .nav-item a:focus,*/
+header .navbar .navbar-nav .nav-item a.active/*,
 header .navbar .navbar-nav .nav-item a.active:focus,
-header .navbar .navbar-nav .nav-item a.active:hover {
-  text-shadow:
-    -.22px -.22px 0 var(--secondary-theme-color),
-    .22px -.22px 0 var(--secondary-theme-color),
-    .22px .22px 0 var(--secondary-theme-color),
-    .22px .22px 0 var(--secondary-theme-color);
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+header .navbar .navbar-nav .nav-item a.active:hover*/ {
+  font-weight: bold;
   color: --secondary-theme-color;
   background: none;
   box-shadow: none;
@@ -2650,6 +2644,7 @@ header.menu-sticky .navbar .navbar-nav .nav-item a {
   padding: 10px 0;
   font-family: 'Meltix', sans-serif;
   font-size: 16px;
+  font-style: normal;
 }
 
 header.menu-sticky .navbar .navbar-nav .nav-item a:hover,
@@ -2660,16 +2655,8 @@ header.menu-sticky .navbar .navbar-nav .nav-item a.active:hover {
   color: #ffffff;
   background: none;
   box-shadow: none;
-  text-shadow:
-    -.22px -.22px 0 #ffffff,
-    .22px -.22px 0  #ffffff,
-    .22px .22px 0  #ffffff,
-    .22px .22px 0  #ffffff;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+  //font-weight: 900;
+  font-style: bold;
 }
 
 header.menu-sticky .navbar .navbar-nav .nav-item a::before {
@@ -2885,7 +2872,7 @@ header.dark.menu-sticky {
 .iq-banner .banner-text h1 {
   font-size: 50px;
   font-family:'Meltix', sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   line-height: normal;
 }
 
