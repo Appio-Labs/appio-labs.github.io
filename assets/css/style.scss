@@ -84,7 +84,7 @@ Design and Developed by: iqonic.design
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Modern Era', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -2481,9 +2481,8 @@ header .navbar .navbar-nav>li:last-child {
 header .navbar .navbar-nav .nav-item a {
   color: var(--secondary-theme-color);
   padding: 10px 0;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Modern Era', sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: normal;
 }
 
@@ -2642,21 +2641,21 @@ header.menu-sticky {
 header.menu-sticky .navbar .navbar-nav .nav-item a {
   color: #ffffff;
   padding: 10px 0;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Modern Era', sans-serif;
   font-size: 16px;
-  font-style: normal;
+  font-weight: normal;
 }
 
-header.menu-sticky .navbar .navbar-nav .nav-item a:hover,
-header.menu-sticky .navbar .navbar-nav .nav-item a:focus,
-header.menu-sticky .navbar .navbar-nav .nav-item a.active,
+/*header.menu-sticky .navbar .navbar-nav .nav-item a:hover,
+header.menu-sticky .navbar .navbar-nav .nav-item a:focus,*/
+header.menu-sticky .navbar .navbar-nav .nav-item a.active/*,
 header.menu-sticky .navbar .navbar-nav .nav-item a.active:focus,
-header.menu-sticky .navbar .navbar-nav .nav-item a.active:hover {
+header.menu-sticky .navbar .navbar-nav .nav-item a.active:hover*/ {
   color: #ffffff;
   background: none;
   box-shadow: none;
   //font-weight: 900;
-  font-style: bold;
+  font-weight: bold;
 }
 
 header.menu-sticky .navbar .navbar-nav .nav-item a::before {
@@ -2871,8 +2870,8 @@ header.dark.menu-sticky {
 
 .iq-banner .banner-text h1 {
   font-size: 50px;
-  font-family:'Meltix', sans-serif;
-  font-weight: normal;
+  font-family:'Modern Era', sans-serif;
+  font-weight: bold;
   line-height: normal;
 }
 
