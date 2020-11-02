@@ -2,7 +2,7 @@
   "name": "appio",
   "version": "1.0.0",
   "private": true,
-  "description": "Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.",
+  "description": "Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest technologies.",
   "author": "appio-ou",
   "scripts": {
     "serve": "nuxt serve",
