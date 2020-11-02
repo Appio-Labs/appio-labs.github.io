@@ -31,7 +31,7 @@ export default {
     { src: '~assets/app/app.css', lang: 'css' },
     { src: 'animate.css/animate.min.css', lang: 'css' },
     { src: 'owl.carousel/dist/assets/owl.carousel.css', lang: 'css' },
-    { src: 'owl.carousel/dist/assets/owl.theme.default.css', lang: 'css' }
+    { src: 'owl.carousel/dist/assets/owl.theme.default.css', lang: 'css' },
   ],
   /*
    ** Plugins to load before mounting the App
