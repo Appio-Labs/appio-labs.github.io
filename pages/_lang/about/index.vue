@@ -4,7 +4,7 @@
     <div class="main-content">
       
       <About />
-      <Client />
+      <!--<Client />-->
       <!--<Specialities /> -->
       <!--<Counter />-->
       <!--<Testimonial />-->
@@ -74,18 +74,18 @@
 </template>
 
 <script>
-import Home from '~/components/LandingPage1/Home'
-import About from '~/components/LandingPage1/About'
-import Specialities from '~/components/LandingPage1/Specialities'
-import Counter from '~/components/LandingPage1/Counter'
-import Testimonial from '~/components/LandingPage1/Testimonial'
-import Pricing from '~/components/LandingPage1/Pricing'
-import Team from '~/components/LandingPage1/Team'
-import CompareService from '~/components/LandingPage1/CompareService'
-import Faq from '~/components/LandingPage1/Faq'
-import Blog from '~/components/LandingPage1/Blog'
-import Client from '~/components/LandingPage1/Client'
-import Contact from '~/components/LandingPage1/Contact'
+import Home from '~/components/About/Home'
+import About from '~/components/About/About'
+import Specialities from '~/components/About/Specialities'
+import Counter from '~/components/About/Counter'
+import Testimonial from '~/components/About/Testimonial'
+import Pricing from '~/components/About/Pricing'
+import Team from '~/components/About/Team'
+import CompareService from '~/components/About/CompareService'
+import Faq from '~/components/About/Faq'
+import Blog from '~/components/About/Blog'
+import Client from '~/components/About/Client'
+import Contact from '~/components/About/Contact'
 import { sofbox } from '~/assets/app/app'
 
 

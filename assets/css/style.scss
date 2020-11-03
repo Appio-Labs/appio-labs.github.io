@@ -2497,7 +2497,7 @@ header .navbar .navbar-nav .nav-item a.active/*,
 header .navbar .navbar-nav .nav-item a.active:focus,
 header .navbar .navbar-nav .nav-item a.active:hover*/ {
   font-weight: bold;
-  color: --secondary-theme-color;
+  color: var(--secondary-theme-color);
   background: none;
   box-shadow: none;
 }

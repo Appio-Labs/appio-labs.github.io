@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-import logoImg from '../assets/images/logo-inline.png'
+import logoImg from '~/assets/images/logo-inline.png'
 import { menu } from '~/config/constant'
 import { languages } from '~/config/constant'
 export default {
@@ -19,14 +19,14 @@ export default {
       logo: logoImg,
       navItems: [
         {
-          href: '#iq-home',
+          href: '/',
           title: 'header.home',
           active: true,
           children: false,
           child: menu
         },
-        { href: '#how-it-works', title: 'header.about' },
-        { href: '#software-features', title: 'header.service' },
+        { href: '/about', title: 'header.about' },
+        { href: '/services', title: 'header.service' },
         /* { href: '#great-screenshots', title: 'Screenshots' }, */
         /* { href: '#pricing', title: 'Pricing' }, */
         /* { href: '#team', title: 'Team' },
@@ -54,7 +54,7 @@ export default {
 }
 </script>
 <style>
-  @import url('../assets/css/color/style.css');
+  @import url('~/assets/css/color/style.css');
   /*.wow {
     visibility: hidden;
   }*/

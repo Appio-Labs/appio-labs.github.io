@@ -1,3 +1,5 @@
+import i18n from './config/i18n'
+
 export default {
   //mode: 'universal',
   /*
@@ -38,14 +40,14 @@ export default {
    */
   plugins: [
   '~plugins/sofbox.js',
-  '~plugins/i18n.js'
+  //'~plugins/i18n.js'
   ],
 
   target: 'static',
 
   router: {
     base: '/',
-    middleware: 'i18n'
+    //middleware: 'i18n'
   },
 
   /*
@@ -54,7 +56,27 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     // '@nuxtjs/eslint-module'
+  /*  [
+      'nuxt-i18n',
+      vueI18nLoader: true,
+      {
+        defaultLocale: 'en',
+         locales: [
+          {
+             code: 'en',
+             name: 'English'
+          },
+          {
+             code: 'es',
+             name: 'Español'
+          }
+        ],
+        vueI18n: i18n
+      }
+     ]*/
   ],
+
+  
   /*
    ** Nuxt.js modules
    */
@@ -65,6 +87,15 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/firebase',
     '@nuxtjs/sitemap',
+    ['nuxt-i18n', 
+      {
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+          onlyOnRoot: true,
+        }
+      }
+    ]
   ],
   firebase: {
     config: {
@@ -82,9 +113,23 @@ export default {
       performance: true,
     }
   },
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+         code: 'en',
+         name: 'English'
+      },
+      {
+         code: 'es',
+         name: 'Español'
+      }
+    ],
+    vueI18n: i18n
+  },
   sitemap: {
     hostname: 'https://appio.site',
-    lastmod: '2020-10-27',
+    lastmod: '2020-11-3',
     sitemaps: [
       {
         path: 'sitemap.xml',
