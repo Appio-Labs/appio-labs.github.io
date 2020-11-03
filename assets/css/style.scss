@@ -814,7 +814,7 @@ blockquote {
 
 .button.bt-home:hover,
 .button.bt-home:focus {
-  color: #1D232A;
+  color: var(--secondary-theme-color);
   background: #ffffff;
 }
 
@@ -822,14 +822,19 @@ blockquote {
 /* Buttons white 2 */
 
 .button.bt-black {
-  color: #333;
+  color: --secondary-theme-color;
   background: #fff;
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 30px;
 }
 
 .button.bt-black:hover,
 .button.bt-black:focus {
-  color: #ffffff;
-  background: #333;
+  color: var(--secondary-theme-color);
+  background: var(--primary-theme-color);
 }
 
 .button.bt-blue {

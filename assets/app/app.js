@@ -357,7 +357,7 @@ export const sofbox = {
         $('#back-to-top').fadeOut(400)
       }
     })
-    $('.nav-link').click(function (event) {
+    $('.nav-link').on(function (event) {
       event.preventDefault()
     })
     $('[data-spy="scroll"]').each(function () {

@@ -1,7 +1,9 @@
 <template>
   <div data-spy="scroll" data-offset="80">
     <!--<Loader />-->
-    <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" :styled-logo="styleLogo" />
+    <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" :styled-logo="styleLogo">
+      <a slot="navContent" href="#contact-us" class="button bt-black pull-right">{{ $t('header.contact') }}</a>
+    </HeaderStyle1>
     <nuxt />
   </div>
 </template>
@@ -29,7 +31,7 @@ export default {
         /* { href: '#pricing', title: 'Pricing' }, */
         /* { href: '#team', title: 'Team' },
         { href: '#blog', title: 'Blog' }, */
-        { href: '#contact-us', title: 'header.contact' },
+        /*{ href: '#contact-us', title: 'header.contact' },*/
         {
           title: 'header.language',
           active: false,

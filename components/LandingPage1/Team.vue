@@ -1,68 +1,76 @@
 <template>
-  <section id="team" class="overview-block-ptb white-bg">
+  <!-- our team -->
+  <section id="team" class="overview-block-ptb grey-bg iq-team-main">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <div class="heading-title">
-            <h3 class="title iq-tw-7">
+        <div class="col-lg-12 col-md-12">
+          <div class="heading-title text-center">
+            <h2 class="title iq-tw-7">
               Meet the Team
-            </h3>
+            </h2>
             <p>Our team of talented professionals who helped in growing business.</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-lg-3 col-md-6" v-for="(item,index) of list" :key="index">
-          <CardStyle8>
-            <img slot="cardMedia" v-rjs="3" :src="item.image" class="img-fluid center-block" alt="#">
-            <div slot="cardHeader">
-              <h5 class="iq-font-black iq-tw-7">
-                {{ item.title }}
-              </h5>
-              <span class="team-post">{{ item.subtitle }}</span>
+        <div v-for="(list,index) in temeList" :key="index" class="col-lg-6 col-sm-6 iq-mb-30">
+          <CardStyle3>
+            <div slot="cardMedia">
+              <img alt="" class="img-fluid" :src="list.media">
             </div>
-            <div slot="cardOverlay">
-              <ul>
-                <li><a href="javascript:void(0)"><i class="fab fa-twitter" /></a></li>
-                <li><a href="javascript:void(0)"><i class="fab fa-facebook" /></a></li>
-                <li><a href="javascript:void(0)"><i class="fab fa-google" /></a></li>
-                <li><a href="javascript:void(0)"><i class="fab fa-github" /></a></li>
-              </ul>
+            <div slot="cardTitle">
+              <a href="team-details-1.html">
+                <h6 class="iq-tw-6">{{ list.title }}</h6>
+              </a>
+              <span class="team-post">{{ list.subtitle }}</span>
             </div>
-          </CardStyle8>
+            <ul slot="cardFooter" class="list-inline">
+              <li v-for="(social,sindex) in list.socialLinks" :key="sindex">
+                <a :href="social.link"> <i :class="social.icon" /> </a>
+              </li>
+            </ul>
+          </CardStyle3>
         </div>
       </div>
     </div>
   </section>
+  <!-- our team  end-->
 </template>
+
 <script>
+import CardStyle3 from '../sofbox/Card/CardStyle3'
 export default {
   name: 'Team',
+  components: { CardStyle3 },
   data () {
     return {
-      list: [
+      temeList: [
         {
-          title: 'JD Adams',
-          subtitle: 'Web Designer',
-          image: require('../../assets/images/team/01.png')
+          media: require('../../assets/images/team/small/01.jpg'),
+          title: 'Raúl Jareño',
+          subtitle: 'CEO, Appio',
+          socialLinks: [
+            { icon: 'fab fa-facebook-f', link: '#' },
+            { icon: 'fab fa-twitter', link: '#' },
+            { icon: 'fab fa-pinterest-p', link: '#' }
+          ]
         },
         {
-          title: 'Rinkal Oberoi',
-          subtitle: 'Web Designer',
-          image: require('../../assets/images/team/02.png')
-        },
-        {
-          title: 'Jason Deol',
-          subtitle: 'Web Designer',
-          image: require('../../assets/images/team/03.png')
-        },
-        {
-          title: 'kush Jackson',
-          subtitle: 'Web Designer',
-          image: require('../../assets/images/team/04.png')
+          media: require('../../assets/images/team/small/02.jpg'),
+          title: 'Patricia Gruart',
+          subtitle: 'Sales Manager, Appio',
+          socialLinks: [
+            { icon: 'fab fa-facebook-f', link: '#' },
+            { icon: 'fab fa-twitter', link: '#' },
+            { icon: 'fab fa-pinterest-p', link: '#' }
+          ]
         }
       ]
     }
   }
 }
 </script>
+
+<style scoped>
+
+</style>
