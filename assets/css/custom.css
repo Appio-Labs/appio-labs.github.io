@@ -20,10 +20,20 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-  
+
 .fab:hover {
-    color: #D1F250;
+    color: var(--primary-theme-color);
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
+
+.fab.fab-team{
+    color: #ffffff;
+}
+
+.fab.fab-team:hover
+{
+    color: #ffffff;
+}
+  

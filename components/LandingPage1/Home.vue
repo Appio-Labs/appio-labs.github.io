@@ -19,7 +19,7 @@
                 <div class="waves wave-3" />
               </div>
             </div>-->
-            <a href="#contact-us" class="button bt-home iq-mt-50">{{ $t('home.button') }}</a>
+            <a href="#contact-us" class="button bt-home iq-mt-50">{{ $t('contact.title') }}</a>
           </div>
           <div class="col-lg-6">
             <img class="banner-img" :src="require('../../assets/images/banner/01.png')" alt="">

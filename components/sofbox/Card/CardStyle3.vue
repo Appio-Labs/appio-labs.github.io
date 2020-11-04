@@ -3,7 +3,7 @@
     <div class="team-content">
       <slot name="cardMedia" />
     </div>
-    <div class="avtar-name iq-mt-20 iq-font-white text-center">
+    <div class="avtar-name iq-mt-20 text-center">
       <slot name="cardTitle" />
     </div>
     <div class="team-social iq-mt-10">

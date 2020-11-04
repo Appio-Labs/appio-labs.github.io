@@ -26,7 +26,7 @@
             </div>
             <ul slot="cardFooter" class="list-inline">
               <li v-for="(social,sindex) in list.socialLinks" :key="sindex">
-                <a :href="social.link"> <i :class="social.icon" /> </a>
+                <a :href="social.link" :class="social.icon"></a>
               </li>
             </ul>
           </CardStyle3>

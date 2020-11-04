@@ -5,7 +5,7 @@
     <div class="container">
       <div class="heading-title left text-left">
           <h3 class="iq-tw-7 title">
-            {{ $t('projects.title') }}
+            {{ $t('home.projects.title') }}
           </h3>
         </div>
       <div class="row">

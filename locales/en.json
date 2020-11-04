@@ -6,50 +6,6 @@
     "contact": "Contact",
     "language": "English"
   },
-  "home": {
-    "title": "Web & Mobile apps Design & Development company",
-    "introduction": "We are company for digital transformation and software development, design and consulting that offers cutting edge engineering solutions.",
-    "button": "Get in Touch"
-  },
-  "about": {
-    "title": "What is appio?",
-    "introduction": "Appio brings together a community of software developers & architects, and partners with other experts in the industry to provide you with the best team to help you transform your idea into a powerful and scalable product.",
-    "web": {
-      "title": "Web Development",
-      "description": "Our web designers and developers are dedicated to creating powerful, effective and engaging websites. Our bold and ultra-clean design style combine to produce high quality products."
-    },
-    "mobile": {
-      "title": "Mobile Development",
-      "description": "Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion."
-    },
-    "qa": {
-      "title": "Automation & Testing",
-      "description": "Our software quality department handles functional, performance and compatibility testing, as well as translation and localization. Also we offer process automation solutions."
-    },
-    "design": {
-      "title": "UI/UX Design",
-      "description": "Our designers create visually appealing, elegant prototypes, easy to use and oriented to the target audience of your business. We optimize the design to efficiently organize the information to the user."
-    }
-  },
-  "service": {
-    "title": "What can appio do?",
-    "description1": "With appio you can create beautiful and elegant websites and apps that suits your business.",
-    "description2": "Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality.",
-    "description3": "Discover our best ever services",
-    "button": "Learn more"
-  },
-  "features": {
-    "title": "Software Features",
-    "description": "Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.",
-    "feature1": "Consulting and prototyping.",
-    "feature2": "UI/UX design.",
-    "feature3": "Custom software development.",
-    "feature4": "Automated QA and testing.",
-    "feature5": "Maintenance and post-warranty support."
-  },
-  "projects": {
-    "title": "Featured Projects"
-  },
   "contact": {
     "title": "Get in Touch",
     "name": "Name*",
@@ -65,5 +21,60 @@
   "copyright": {
     "year": "© 2020",
     "rights": "All Rights Reserved"
+  },
+  "home": {
+    "title": "Web & Mobile apps Design & Development company",
+    "about": {
+      "title": "What is appio?",
+      "introduction": "Appio brings together a community of software developers & architects, and partners with other experts in the industry to provide you with the best team to help you transform your idea into a powerful and scalable product.",
+      "web": {
+        "title": "Web Development",
+        "description": "Our web designers and developers are dedicated to creating powerful, effective and engaging websites. Our bold and ultra-clean design style combine to produce high quality products."
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Our mobile app developers have over a decade-long expertise in building solutions that meet market needs, empower companies’ brand identity, and encourage business growth and expansion."
+      },
+      "qa": {
+        "title": "Automation & Testing",
+        "description": "Our software quality department handles functional, performance and compatibility testing, as well as translation and localization. Also we offer process automation solutions."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Our designers create visually appealing, elegant prototypes, easy to use and oriented to the target audience of your business. We optimize the design to efficiently organize the information to the user."
+      }
+    },
+    "service": {
+      "title": "What can appio do?",
+      "description1": "With appio you can create beautiful and elegant websites and apps that suits your business.",
+      "description2": "Whether you go native, cross-platform, or web, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality.",
+      "description3": "Discover our best ever services",
+      "button": "Learn more"
+    },
+    "features": {
+      "title": "Software Features",
+      "description": "Appio offers a variety of design and development services, from creating software development solutions and responsive designs, to building custom experiences using the latest and proven technologies.",
+      "feature1": "Consulting and prototyping.",
+      "feature2": "UI/UX design.",
+      "feature3": "Custom software development.",
+      "feature4": "Automated QA and testing.",
+      "feature5": "Maintenance and post-warranty support."
+    },
+    "projects": {
+      "title": "Featured Projects"
+    }
+  },
+  "about": {
+    "title": "Helping people build digital products",
+    "who": {
+      "title": "Who we are?",
+      "description1": "Appio is a software development company that provides businesses worldwide with custom technology solutions. We help clients through all or parts of the <b>Software Development Lifecycle. (SDLC).</b>",
+      "description2": "Appio brings together a <b>community of software developers & architects</b>, and partners with other experts in the industry to provide you with the best team to help you transform <b>your idea into a powerful and scalable product.</b>",
+      "description3": "Whether you go <b>native, cross-platform, or web</b>, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality."
+    },
+    "team": {
+      "title": "Meet our leadership",
+      "description": "Our team of talented professionals that help in growing business while keeping a customer centric lens on everything we do."
+    }
   }
 }

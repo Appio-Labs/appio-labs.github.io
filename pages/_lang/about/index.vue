@@ -9,7 +9,7 @@
       <!--<Counter />-->
       <!--<Testimonial />-->
       <!--<Pricing />-->
-      <!--<Team />-->
+      <Team />
       <!--<CompareService />-->
       <!--<Faq />-->
       <!--<Blog />-->

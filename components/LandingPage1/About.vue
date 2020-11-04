@@ -5,8 +5,8 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="heading-title">
-              <h3 class="title iq-tw-7"> {{ $t('about.title') }} </h3>
-              <p>{{ $t('about.introduction') }}</p>
+              <h3 class="title iq-tw-7"> {{ $t('home.about.title') }} </h3>
+              <p>{{ $t('home.about.introduction') }}</p>
             </div>
           </div>
         </div>
@@ -16,9 +16,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon1.png" class="img-fluid center-block" alt="web development">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  {{ $t('about.web.title') }}
+                  {{ $t('home.about.web.title') }}
                 </h5>
-                <p>{{ $t('about.web.description') }}</p>
+                <p>{{ $t('home.about.web.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -27,9 +27,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon2.png" class="img-fluid" alt="mobile development">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  {{ $t('about.mobile.title') }}
+                  {{ $t('home.about.mobile.title') }}
                 </h5>
-                <p>{{ $t('about.mobile.description') }}</p>
+                <p>{{ $t('home.about.mobile.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -38,9 +38,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon3.png" class="img-fluid" alt="automation testing">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  {{ $t('about.qa.title') }}
+                  {{ $t('home.about.qa.title') }}
                 </h5>
-                <p>{{ $t('about.qa.description') }}</p>
+                <p>{{ $t('home.about.qa.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -49,9 +49,9 @@
               <img slot="cardMedia" src="../../assets/images/services/icon4.png" class="img-fluid" alt="design">
               <div slot="cardBody">
                 <h5 class="iq-tw-7 iq-mt-25 iq-mb-15">
-                  {{ $t('about.design.title') }}
+                  {{ $t('home.about.design.title') }}
                 </h5>
-                <p>{{ $t('about.design.description') }}</p>
+                <p>{{ $t('home.about.design.description') }}</p>
               </div>
             </CardStyle5>
           </div>
@@ -75,19 +75,19 @@
       <div slot="cardBody" class="col-lg-6 iq-pt-60">
         <div class="heading-title left text-left white">
           <h3 class="iq-tw-7 iq-mb-25 title">
-            {{ $t('service.title') }}
+            {{ $t('home.service.title') }}
           </h3>
         </div>
         <p> 
-          {{ $t('service.description1') }}
+          {{ $t('home.service.description1') }}
         </p>
         <p class="iq-mt-20">
-          {{ $t('service.description2') }}
+          {{ $t('home.service.description2') }}
         </p>
         <h6 class="iq-tw-6 iq-mb-15 iq-mt-50">
-          {{ $t('service.description3') }}
+          {{ $t('home.service.description3') }}
         </h6>
-        <a href="javascript:void(0)" class="button iq-mt-20">{{ $t('service.button') }}</a>
+        <a href="javascript:void(0)" class="button iq-mt-20">{{ $t('home.service.button') }}</a>
       </div>
       <div slot="cardMedia" class="col-lg-6 align-self-center iq-pb-100">
         <img class="iq-works-img pull-right img-fluid" src="../../assets/images/drive/01.png" alt="drive01">
@@ -103,25 +103,25 @@
       <div slot="cardBody" class="col-lg-6 offset-lg-6">
         <div class="heading-title left text-left">
           <h3 class="iq-tw-7 iq-mtb-25 title">
-            {{ $t('features.title') }}
+            {{ $t('home.features.title') }}
           </h3>
         </div>
-        <p>{{ $t('features.description') }}</p>
+        <p>{{ $t('home.features.description') }}</p>
         <ul class="iq-mt-40 iq-list">
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature1') }}</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('home.features.feature1') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature2') }}</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('home.features.feature2') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature3') }}</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('home.features.feature3') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature4') }}</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('home.features.feature4') }}</span>
           </li>
           <li class="iq-tw-6 iq-mb-15">
-            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('features.feature5') }}</span>
+            <i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">{{ $t('home.features.feature5') }}</span>
           </li>
         </ul>
       </div>
