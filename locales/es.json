@@ -78,5 +78,13 @@
       "title": "Conoce a nuestro equipo",
       "description": "Nuestro equipo de profesionales ayuda en el crecimiento de los proyectos mientras mantiene el punto de mira centrado en el cliente en todo momento."
     }
+  },
+  "services": {
+    "title": "Servicios de Desarrollo de Aplicaciones Web y Móviles",
+    "stack": {
+      "title" : "Nuestros servicios",
+      "description": "Appio es popular por las siguientes especialidades que pueden hacer realidad tu producto"
+
+    }
   }
 }

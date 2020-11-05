@@ -76,5 +76,13 @@
       "title": "Meet our board",
       "description": "Our team of talented professionals that help in growing business while keeping a customer centric lens on everything we do."
     }
+  },
+  "services": {
+    "title": "Mobile & Web App Development Services",
+    "stack": {
+      "title" : "Our services",
+      "description": "Appio is popular for the below specialities that can make reality your product"
+
+    }
   }
 }
