@@ -83,8 +83,57 @@
     "title": "Servicios de Desarrollo de Aplicaciones Web y Móviles",
     "stack": {
       "title" : "Nuestros servicios",
-      "description": "Appio es popular por las siguientes especialidades que pueden hacer realidad tu producto"
-
+      "description": "Appio es popular por las siguientes especialidades que pueden hacer realidad tu producto",
+      "list" : [
+        {
+          "icon": "apple.png",
+          "title": "Desarrollo iOS",
+          "section": "Desarrollo móvil",
+          "description": "Apps nativas en Swift para todos los dispositivos Apple"
+        },
+        {
+          "icon": "android.png",
+          "title": "Desarrollo Android",
+          "section": "Desarrollo móvil",
+          "description": "Apps nativas en Kotlin para los dispositivos Android"
+        },
+        {
+          "icon": "flutter.png",
+          "title": "Flutter",
+          "section": "Desarrollo móvil",
+          "description": "Desarrollo móvil multiplataforma basado en Dart"
+        },
+        {
+          "icon": "web.png",
+          "title": "Desarrollo de Web apps",
+          "section": "Desarrollo web",
+          "description": "Web apps y PWAs seguras y eficientes"
+        },
+        {
+          "icon": "design.png",
+          "title": "Diseño web",
+          "section": "Diseño UI/UX",
+          "description": "Páginas web modernas y adaptables"
+        },
+        {
+          "icon": "design-mobile.png",
+          "title": "Diseño móvil",
+          "section": "Diseño UI/UX",
+          "description": "Diseño Material y HIG para móviles"
+        },
+        {
+          "icon": "testing-manual.png",
+          "title": "Testing manual",
+          "section": "Testing",
+          "description": "Cuando es necesaria la intervención humana"
+        },
+        {
+          "icon": "testing-automation.png",
+          "title": "Testing automatizado",
+          "section": "Testing",
+          "description": "Para casos repetitivos que consumen mucho tiempo"
+        }
+      ]
     }
   }
 }

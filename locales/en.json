@@ -2,7 +2,7 @@
   "header": {
     "home": "Home",
     "about": "About",
-    "service": "Service",
+    "service": "Services",
     "contact": "Contact",
     "language": "English"
   },
@@ -67,7 +67,7 @@
   "about": {
     "title": "Helping people build digital products",
     "who": {
-      "title": "Who we are?",
+      "title": "Who we are",
       "description1": "Appio is a software development company that provides businesses worldwide with custom technology solutions. We help clients through all or parts of the <b>Software Development Lifecycle. (SDLC).</b>",
       "description2": "Appio brings together a <b>community of software developers & architects</b>, and partners with other experts in the industry to provide you with the best team to help you transform <b>your idea into a powerful and scalable product.</b>",
       "description3": "Whether you go <b>native, cross-platform, or web</b>, we’re sure that we can create something ideal for you. Our goal is to make your vision a reality."
@@ -81,8 +81,57 @@
     "title": "Mobile & Web App Development Services",
     "stack": {
       "title" : "Our services",
-      "description": "Appio is popular for the below specialities that can make reality your product"
-
+      "description": "Appio is popular for the below specialities that can make reality your product",
+      "list" : [
+        {
+          "icon": "apple.png",
+          "title": "iOS app development",
+          "section": "Mobile development",
+          "description": "Native Swift apps for all Apple devices"
+        },
+        {
+          "icon": "android.png",
+          "title": "Android app development",
+          "section": "Mobile development",
+          "description": "Build native apps for Android with Kotlin"
+        },
+        {
+          "icon": "flutter.png",
+          "title": "Flutter",
+          "section": "Mobile development",
+          "description": "Dart-based cross-platform development"
+        },
+        {
+          "icon": "web.png",
+          "title": "Web app development",
+          "section": "Web development",
+          "description": "Secure and performant web apps and PWAs"
+        },
+        {
+          "icon": "design.png",
+          "title": "Web design",
+          "section": "UI/UX design",
+          "description": "Modern and adaptive websites"
+        },
+        {
+          "icon": "design-mobile.png",
+          "title": "Mobile design",
+          "section": "UI/UX design",
+          "description": "Material and HIG design for mobiles"
+        },
+        {
+          "icon": "testing-manual.png",
+          "title": "Manual testing",
+          "section": "Testing",
+          "description": "When human intervention is needed"
+        },
+        {
+          "icon": "testing-automation.png",
+          "title": "Automation testing",
+          "section": "Testing",
+          "description": "For time-consuming & business cases"
+        }
+      ]
     }
   }
 }

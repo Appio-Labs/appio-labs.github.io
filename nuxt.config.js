@@ -133,7 +133,8 @@ export default {
     sitemaps: [
       {
         path: 'sitemap.xml',
-        routes: ['/', '/es/'],
+        routes: ['/',  '/about', '/services',
+        '/es', '/es/about', '/es/services'],
         gzip: true
       }/*, {
         path: '/sitemap.xml',

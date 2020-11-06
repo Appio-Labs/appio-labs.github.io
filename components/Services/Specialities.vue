@@ -14,7 +14,7 @@
       <div class="row">
         <div v-for="(item,index) of list" :key="index" class="col-sm-12 col-lg-3 col-md-6 iq-mb-30">
           <CardStyle9>
-            <i slot="cardMedia"><img class="img-fluid center-block" width="65" height="65" :src="item.icon" :alt="item.title"/></i>
+            <i slot="cardMedia"><img class="img-fluid center-block" width="65" height="65" :src="require('~/assets/images/services/' + item.icon)" :alt="item.title"/></i>
             <!--<i slot="cardMedia" aria-hidden="true" :class="item.icon"></i>-->
             <div slot="cardBody">
               <h5 class="iq-tw-7 iq-pt-20">
@@ -32,13 +32,30 @@
   </section>
 </template>
 <script>
+import { servicesList } from '~/config/constant'
+/*export default {
+  props: {
+    icon: String,
+    title: String,
+    section: String,
+    description: String,
+  }
+}*/
 export default {
   name: 'Specialites',
   data () {
-    return {
-      list: [
+       /* return {
+            showExchangeTypes: false,
+            exchangetItems: [
+                //this.$t('message.the_world') Want to get the character of the corresponding language
+                {id: 1, text: this.$t('message.the_world')},//
+                {id: 2, text: this.$t('message.the_world_2')}
+            ],                 
+        }*/
+    return {list: this.$t('services.stack.list') };/*{
+      list:/*[
         {
-          icon: require('~/assets/images/services/apple.png')/*'ion-ios-monitor-outline'*/,
+          icon: require('~/assets/images/services/apple.png'),
           title: 'iOS app development',
           section: 'Mobile development',
           description: 'Native Swift apps for all Apple devices'
@@ -85,8 +102,8 @@ export default {
           section: 'Testing',
           description: 'For time-consuming & business cases'
         }
-      ]
-    }
+      ]*/
+    //}
   }
 }
 </script>
