@@ -45,7 +45,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      bgImage: require('../../assets/images/bg/01.jpg')
+      bgImage: '"https://res.cloudinary.com/appio/image/upload/q_auto/v1605375249/appio/web/appio_background.jpg"'
     }
   }
 }

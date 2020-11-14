@@ -2,7 +2,7 @@
   <div
     :id="ids"
     :class="classNames"
-    :style="'background:url(' + bgImage + ')'"
+    :style="'background:url(' + bgImage + ') no-repeat fixed center'"
     data-parallax="true"
   >
     <slot />
