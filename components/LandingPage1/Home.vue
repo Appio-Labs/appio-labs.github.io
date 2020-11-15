@@ -18,14 +18,10 @@
           <div class="col-lg-6">
             <cld-image
               class="banner-img"
-              publicId="appio/web/home/appio_home_main.webp"
-            >
-              <cld-transformation
-                quality="auto:good"
-                width="637"
-                crop="scale"
-              />
-            </cld-image>
+              :publicId="mainImageId"
+              quality="auto:good"
+              responsive
+            />
           </div>
         </div>
       </div>
@@ -39,6 +35,7 @@ export default {
     return {
       bgImage:
         '"https://res.cloudinary.com/appio/image/upload/q_auto/v1605375249/appio/web/appio_background.jpg"',
+      mainImageId: "appio/web/home/appio_home_main.webp",
     };
   },
 };
