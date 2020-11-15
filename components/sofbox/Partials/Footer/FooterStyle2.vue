@@ -4,17 +4,16 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
           <div class="logo">
-            <img :src="image" class="img-fluid logo_img" alt="#">
-            <div class="iq-font-black  iq-mt-15">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            <img :src="image" class="img-fluid logo_img" alt="#" />
+            <div class="iq-font-black iq-mt-15">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
           <div class="contact-bg">
-            <h5 class="iq-tw-6 iq-font-black  iq-mb-10">
-              Address
-            </h5>
+            <h5 class="iq-tw-6 iq-font-black iq-mb-10">Address</h5>
             <ul class="iq-contact">
               <li>
                 <i class="ion-ios-location-outline" />
@@ -32,9 +31,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
-          <h5 class="iq-tw-6 iq-font-black  iq-mb-10">
-            Menu
-          </h5>
+          <h5 class="iq-tw-6 iq-font-black iq-mb-10">Menu</h5>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <ul class="menu">
@@ -55,9 +52,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
-          <h5 class="iq-tw-6 iq-font-black  iq-mb-10">
-            Help
-          </h5>
+          <h5 class="iq-tw-6 iq-font-black iq-mb-10">Help</h5>
           <ul class="office-day">
             <li>
               <a href="javascript:void(0)">Help Center</a>
@@ -71,7 +66,7 @@
           </ul>
         </div>
       </div>
-      <hr>
+      <hr />
       <div class="row iq-mt-20">
         <div class="col-auto mr-auto">
           <ul class="link">
@@ -84,7 +79,7 @@
           </ul>
         </div>
         <div class="col-auto">
-          <div class="iq-copyright ">
+          <div class="iq-copyright">
             @ 2018 <a href="index-11.html">Sofbox</a> All Rights Reserved
           </div>
         </div>
@@ -94,11 +89,11 @@
 </template>
 <script>
 export default {
-  name: 'FooterStyle2',
-  data () {
+  name: "FooterStyle2",
+  data() {
     return {
-      image: require('../../../../assets/images/color-customizer/color-1.png')
-    }
-  }
-}
+      //image: require('../../../../assets/images/color-customizer/color-1.png')
+    };
+  },
+};
 </script>

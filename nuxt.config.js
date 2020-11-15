@@ -1,5 +1,6 @@
 import i18n from './config/i18n'
 
+
 export default {
   //mode: 'universal',
   /*
@@ -39,8 +40,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-  '~plugins/sofbox.js',
-  //'~plugins/i18n.js'
+    '~plugins/sofbox.js',
+    //'~plugins/i18n.js'
   ],
 
   target: 'static',
@@ -56,27 +57,26 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     // '@nuxtjs/eslint-module'
-  /*  [
-      'nuxt-i18n',
-      vueI18nLoader: true,
-      {
-        defaultLocale: 'en',
-         locales: [
-          {
-             code: 'en',
-             name: 'English'
-          },
-          {
-             code: 'es',
-             name: 'Español'
-          }
-        ],
-        vueI18n: i18n
-      }
-     ]*/
+    /*  [
+        'nuxt-i18n',
+        vueI18nLoader: true,
+        {
+          defaultLocale: 'en',
+           locales: [
+            {
+               code: 'en',
+               name: 'English'
+            },
+            {
+               code: 'es',
+               name: 'Español'
+            }
+          ],
+          vueI18n: i18n
+        }
+       ]*/
   ],
 
-  
   /*
    ** Nuxt.js modules
    */
@@ -87,13 +87,19 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/firebase',
     '@nuxtjs/sitemap',
-    ['nuxt-i18n', 
+    ['nuxt-i18n',
       {
         detectBrowserLanguage: {
           useCookie: true,
           cookieKey: 'i18n_redirected',
           onlyOnRoot: true,
         }
+      }
+    ],
+    ['@nuxtjs/cloudinary',
+      {
+        cloudName: 'appio',
+        useComponent: true
       }
     ]
   ],
@@ -117,12 +123,12 @@ export default {
     defaultLocale: 'en',
     locales: [
       {
-         code: 'en',
-         name: 'English'
+        code: 'en',
+        name: 'English'
       },
       {
-         code: 'es',
-         name: 'Español'
+        code: 'es',
+        name: 'Español'
       }
     ],
     vueI18n: i18n
@@ -133,8 +139,8 @@ export default {
     sitemaps: [
       {
         path: 'sitemap.xml',
-        routes: ['/',  '/about', '/services',
-        '/es', '/es/about', '/es/services'],
+        routes: ['/', '/about', '/services',
+          '/es', '/es/about', '/es/services'],
         gzip: true
       }/*, {
         path: '/sitemap.xml',
@@ -157,7 +163,7 @@ export default {
       layouts: true
     },
     //vendor: ['jquery', 'bootstrap'],
-    extend (config, ctx) {},
+    extend(config, ctx) { },
     babel: { compact: true }
   },
   server: {
