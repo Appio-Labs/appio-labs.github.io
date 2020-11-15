@@ -7,37 +7,14 @@
             <h1 class="iq-font-white iq-tw-3" >
               {{ $t('home.title') }}
             </h1>
-            <!--<p class="iq-font-white iq-pt-15 iq-pb-100">
-              {{ $t('home.introduction') }}
-            </p>-->
-            <!--<p class="iq-ptb-70"></p>-->
-            <!--<div class="waves-box">
-              <a href="http://www.youtube.com/watch?v=kzyFmrFky7Y" class="iq-video popup-youtube" target="_blank"><i class="ion-ios-play-outline" /></a>
-              <div class="iq-waves">
-                <div class="waves wave-1" />
-                <div class="waves wave-2" />
-                <div class="waves wave-3" />
-              </div>
-            </div>-->
             <a href="#contact-us" class="button bt-home iq-mt-50">{{ $t('contact.title') }}</a>
           </div>
           <div class="col-lg-6">
-            <img class="banner-img" :src="require('../../assets/images/banner/01.png')" alt="">
+            <img class="banner-img" :src="require('../../assets/images/banner/01.png')" alt="mobile web design development offshoring consultancy">
           </div>
         </div>
       </div>
     </div>
-    <!--<div class="banner-objects">
-      <span class="banner-objects-01" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-50px);">
-        <img :src="require('../../assets/images/drive/03.png')" alt="drive02">
-      </span>
-      <span class="banner-objects-02 iq-fadebounce">
-        <span class="iq-round" />
-      </span>
-      <span class="banner-objects-03 iq-fadebounce">
-        <span class="iq-round" />
-      </span>
-    </div>-->
   </ParallaxStyle1>
 </template>
 <script>

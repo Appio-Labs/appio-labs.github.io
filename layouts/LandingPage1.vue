@@ -1,80 +1,66 @@
 <template>
   <div data-spy="scroll" data-offset="80">
     <!--<Loader />-->
-    <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" :styled-logo="styleLogo">
-      <a slot="navContent" href="#contact-us" class="button bt-black pull-right">{{ $t('header.contact') }}</a>
+    <HeaderStyle1
+      :logo-img="logo"
+      :nav-item-list="navItems"
+      :styled-logo="styleLogo"
+    >
+      <a
+        slot="navContent"
+        href="#contact-us"
+        class="button bt-black pull-right"
+        >{{ $t("header.contact") }}</a
+      >
     </HeaderStyle1>
     <nuxt />
   </div>
 </template>
 <script>
-import logoImg from '~/assets/images/logo-inline.png'
-import { menu } from '~/config/constant'
-import { languages } from '~/config/constant'
+import logoImg from "~/assets/images/logo-inline.png";
+import { menu } from "~/config/constant";
+import { languages } from "~/config/constant";
 export default {
-  name: 'LandingPage1',
-  data () {
+  name: "LandingPage1",
+  data() {
     return {
       styleLogo: false,
       logo: logoImg,
       navItems: [
         {
-          href: '/',
-          title: 'header.home',
+          href: "/",
+          title: "header.home",
           active: true,
           children: false,
-          child: menu
+          child: menu,
         },
-        { href: '/about', title: 'header.about' },
-        { href: '/services', title: 'header.service' },
+        { href: "/about", title: "header.about" },
+        { href: "/services", title: "header.services" },
         /* { href: '#great-screenshots', title: 'Screenshots' }, */
         /* { href: '#pricing', title: 'Pricing' }, */
         /* { href: '#team', title: 'Team' },
         { href: '#blog', title: 'Blog' }, */
         /*{ href: '#contact-us', title: 'header.contact' },*/
         {
-          title: 'header.language',
+          title: "header.language",
           active: false,
           children: true,
-          child: languages
-         }
-      ]
-    }
+          child: languages,
+        },
+      ],
+    };
   },
-  mounted () {
-  },
-  head () {
+  mounted() {},
+  head() {
     return {
       bodyAttrs: {
-        'data-spy': 'scroll',
-        'data-offset': '80'
-      }
-    }
-  }
-}
+        "data-spy": "scroll",
+        "data-offset": "80",
+      },
+    };
+  },
+};
 </script>
 <style>
-  @import url('~/assets/css/color/style.css');
-  /*.wow {
-    visibility: hidden;
-  }*/
-  /*@keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 30%, 0);
-      -ms-transform: translate3d(0, 30%, 0);
-      transform: translate3d(0, 30%, 0);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: none;
-      -ms-transform: none;
-      transform: none;
-    }
-  }
-
-  .fadeInUp {
-    animation-name: fadeInUp;
-    animation-timing-function: ease-out;
-  }*/
+@import url("~/assets/css/color/style.css");
 </style>

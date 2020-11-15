@@ -1,6 +1,9 @@
 <template>
   <div class="iq-pricing text-center">
-    <ParallaxStyle1 :bg-image="bgImage" class-names="price-title iq-parallax iq-over-blue-80">
+    <ParallaxStyle1
+      :bg-image="bgImage"
+      class-names="price-title iq-parallax iq-over-blue-80"
+    >
       <slot name="cardHeader" />
     </ParallaxStyle1>
     <slot name="cardList" />
@@ -11,11 +14,11 @@
 </template>
 <script>
 export default {
-  name: 'PricingCardStyle2',
-  data () {
+  name: "PricingCardStyle2",
+  data() {
     return {
-      bgImage: require('../../../assets/images/bg/08.jpg')
-    }
-  }
-}
+      bgImage: require("../../../assets/images/bg/02.jpg"),
+    };
+  },
+};
 </script>
