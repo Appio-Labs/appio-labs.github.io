@@ -25,7 +25,7 @@
   "home": {
     "title": "Web & Mobile apps Design & Development company",
     "about": {
-      "title": "What is appio?",
+      "title": "What is appi?",
       "introduction": "Appio brings together a community of software developers & architects, and partners with other experts in the industry to provide you with the best team to help you transform your idea into a powerful and scalable product.",
       "web": {
         "title": "Web Development",
@@ -80,9 +80,9 @@
   "services": {
     "title": "Mobile & Web App Development Services",
     "stack": {
-      "title" : "Our services",
+      "title": "Our services",
       "description": "Appio is popular for the below specialities that can make reality your product",
-      "list" : [
+      "list": [
         {
           "icon": "apple.png",
           "title": "iOS app development",
