@@ -55,7 +55,7 @@ a:focus { text-decoration: none !important; }
 a{color:#ffffff;}
 a:focus, a:hover { color: #ff9068; text-decoration: none !important; }
 a, button { outline: medium none !important; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Comfortaa', cursive; font-style: normal; font-weight: 700; color: #ffffff; margin: 0px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; color: #ffffff; margin: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 label { font-weight: normal; }
 h1 { font-size: 52px; line-height: 1.3em; }
@@ -102,7 +102,7 @@ Font-Weight
 Heading Title
 -----------------------------------------------------------------------*/
 .title-box { margin-bottom: 100px; text-align: center;font-weight: bold;  }
-.title { font-family: 'Comfortaa', cursive; color:#666666; margin-bottom: 30px;  font-weight: 800;text-transform: uppercase; position: relative; display: inline-block; padding-left: 20px; padding-right: 60px;}
+.title { font-family: 'Comfortaa'; color:#666666; margin-bottom: 30px;  font-weight: 800;text-transform: uppercase; position: relative; display: inline-block; padding-left: 20px; padding-right: 60px;}
 .title:after{position: absolute; width: 6px; height: 6px; line-height: 6px; content:""; background:#ff9068 ; left: 0 ;top: 8px;}
 .title:before{position: absolute; width: 50px; height: 4px; line-height: 6px; content:""; background:#ff9068 ; right:0 ;top: 10px;}
 
