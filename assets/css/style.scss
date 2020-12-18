@@ -2218,7 +2218,7 @@ Margin Right
 }
 
 .heading-title .title {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Comfortaa';
   font-weight: 500;
   position: relative;
   padding-bottom: 20px;
@@ -2488,9 +2488,9 @@ header .navbar .navbar-nav>li:last-child {
 header .navbar .navbar-nav .nav-item a {
   color: var(--secondary-theme-color);
   padding: 10px 0;
-  font-family: 'Modern Era', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 /*header .navbar .navbar-nav .nav-item a:hover,
@@ -2648,7 +2648,7 @@ header.menu-sticky {
 header.menu-sticky .navbar .navbar-nav .nav-item a {
   color: #ffffff;
   padding: 10px 0;
-  font-family: 'Modern Era', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
