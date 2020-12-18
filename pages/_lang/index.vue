@@ -15,7 +15,6 @@
       <!--<Client />-->
       <Footer />
     </div>
-    <!--<ColorCustomizer />-->
     <ScrollTop />
   </div>
 </template>

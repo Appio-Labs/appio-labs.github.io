@@ -127,8 +127,8 @@ h2,
 h3,
 h4,
 h6 {
-  font-family: 'Meltix';
-  font-weight: bold;
+  font-family: 'Comfortaa';
+  font-weight: 700;
   color: --primary-theme-color;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -5531,7 +5531,7 @@ svg #airplain {
 
 .iq-amazing-tab .nav.nav-tabs li a span {
   font-size: 18px;
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Comforta', sans-serif;
   font-weight: 600;
   line-height: 40px;
   vertical-align: sub;
@@ -6144,7 +6144,7 @@ svg #airplain {
 }
 
 .iq-team .iq-team-info span {
-  font-family: 'Meltix', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .iq-team .share {
@@ -6438,7 +6438,7 @@ svg #airplain {
 
 .iq-blog-detail {
   padding: 20px;
-  background: #fff;
+  background: #fafafa;
 }
 
 .iq-blog-detail a,
@@ -6481,8 +6481,8 @@ svg #airplain {
 
 .iq-blog-meta {
   margin: 15px 0 0px;
-  border-top: 1px solid #ececec;
-  padding-top: 15px;
+  //border-top: 1px solid #ececec;
+  //padding-top: 15px;
 }
 
 .iq-blog-meta ul li {
@@ -9421,4 +9421,22 @@ Tab
 .search-btn button:hover {
   background: #fff;
   color: #333333;
+}
+
+
+
+
+#parentDiv{
+  align-content:center;
+  position: relative;
+}
+#backdrop{
+  align-content:center;
+  position: fixed;
+}
+#curtain{
+  align-content:center;
+  position: fixed;
+  z-index: 2;
+  margin: 100px 0px 150px 100px;
 }

@@ -1,11 +1,15 @@
 <template>
-  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage" class-names="iq-banner iq-pb-100 overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax">
-    <div class="container-fluid" >
+  <ParallaxStyle1
+    ids="iq-home"
+    :bg-image="bgImage"
+    class-names="iq-banner iq-pb-100 overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax"
+  >
+    <div class="container-fluid">
       <div class="banner-text">
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-6">
-            <h1 class="iq-font-white iq-tw-3" >
-              {{ $t('services.title') }}
+            <h1 class="iq-font-white iq-tw-3">
+              {{ $t("services.title") }}
             </h1>
             <!--<p class="iq-font-white iq-pt-15 iq-pb-100">
               {{ $t('home.introduction') }}
@@ -19,10 +23,16 @@
                 <div class="waves wave-3" />
               </div>
             </div>-->
-            <a href="#contact-us" class="button bt-home iq-mt-50">{{ $t('contact.title') }}</a>
+            <a href="#contact-us" class="button bt-home iq-mt-50">{{
+              $t("contact.title")
+            }}</a>
           </div>
           <div class="col-lg-6">
-            <img class="banner-img" :src="require('../../assets/images/banner/01-2.png')" alt="">
+            <img
+              class="banner-img"
+              :src="require('../../assets/images/banner/01-2.png')"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -42,11 +52,12 @@
 </template>
 <script>
 export default {
-  name: 'Home',
-  data () {
+  name: "Home",
+  data() {
     return {
-      bgImage: '"https://res.cloudinary.com/appio/image/upload/q_auto/v1605375249/appio/web/appio_background.jpg"'
-    }
-  }
-}
+      bgImage:
+        '"https://res.cloudinary.com/appio/image/upload/q_auto:good/v1606594666/appio/web/appio_background_02.webp"',
+    };
+  },
+};
 </script>

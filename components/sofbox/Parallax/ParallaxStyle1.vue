@@ -11,8 +11,8 @@
 
 <script>
 export default {
-  name: 'ParallaxStyle1',
+  name: "ParallaxStyle1",
   // eslint-disable-next-line vue/require-prop-types
-  props: ['ids', 'bgImage', 'classNames']
-}
+  props: ["ids", "bgImage", "classNames"],
+};
 </script>

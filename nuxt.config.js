@@ -85,10 +85,46 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxt/content',
+
     '@nuxtjs/firebase',
     '@nuxtjs/sitemap',
-    ['nuxt-i18n',
+    [
+      'nuxt-i18n',
       {
+        locales: [
+          {
+            code: 'es',
+            //iso: 'en-ES',
+            name: 'Español',
+          },
+          {
+            code: 'en',
+            //iso: 'en-US',
+            name: 'English',
+          },
+          /*{
+            code: 'ca',
+            iso: 'ca-ES',
+            name: 'Català',
+          },
+          {
+            code: 'fr',
+            iso: 'fr-FR',
+            name: 'Français',
+          },*/
+        ],
+        defaultLocale: 'en',
+        noPrefixDefaultLocale: true,
+        vueI18n: {
+          locale: 'en',
+          fallbackLocale: 'en',
+          messages: {
+            en: require('./locales/en.json'),
+            es: require('./locales/es.json'),
+            //fr: require('./locales/fr-fr.json'),
+          },
+        },
         detectBrowserLanguage: {
           useCookie: true,
           cookieKey: 'i18n_redirected',
@@ -119,7 +155,7 @@ export default {
       performance: true,
     }
   },
-  i18n: {
+  /*i18n: {
     defaultLocale: 'en',
     locales: [
       {
@@ -132,7 +168,7 @@ export default {
       }
     ],
     vueI18n: i18n
-  },
+  },*/
   sitemap: {
     hostname: 'https://appio.site',
     lastmod: '2020-11-3',

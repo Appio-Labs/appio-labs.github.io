@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       bgImage:
-        '"https://res.cloudinary.com/appio/image/upload/q_auto/v1605375249/appio/web/appio_background.jpg"',
+        '"https://res.cloudinary.com/appio/image/upload/q_auto:good/v1606594666/appio/web/appio_background_02.webp"',
       mainImageId: "appio/web/about/appio_about_main.webp",
     };
   },
