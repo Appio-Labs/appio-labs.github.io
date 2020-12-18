@@ -63,4 +63,5 @@ export default {
 </script>
 <style>
 @import url("~/assets/css/color/style.css");
+@import url("~/assets/app/app.css");
 </style>
