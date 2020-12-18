@@ -78,7 +78,7 @@
               line-height: 70px;
               font-weight: 700;
               color: rgba(255, 255, 255, 1);
-              font-family: Comfortaa;
+              font-family: Comfortaa, cursive;
             "
           >
             Best Ever Saas Landing <br />Template
