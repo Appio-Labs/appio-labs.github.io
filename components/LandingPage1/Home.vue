@@ -42,5 +42,5 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Montserrat:wght@400;500;700&display=swap");
 </style>
