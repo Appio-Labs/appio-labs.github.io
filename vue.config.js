@@ -1,3 +1,5 @@
+const GoogleFontsPlugin = require("google-fonts-webpack-plugin");
+
 module.exports = {
   pluginOptions: {
     i18n: {
@@ -6,5 +8,15 @@ module.exports = {
       localeDir: 'locales',
       enableInSFC: true
     }
+  },
+  chainWebpack: config => {
+    plugins: [
+      new GoogleFontsPlugin({
+        fonts: [
+          { family: 'Comfortaa' },
+          { family: 'Montserrat' }
+        ]
+      })
+    ]
   }
 }

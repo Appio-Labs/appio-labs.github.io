@@ -1,6 +1,5 @@
 import i18n from './config/i18n'
 
-
 export default {
   //mode: 'universal',
   /*
@@ -86,7 +85,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxt/content',
-
     '@nuxtjs/firebase',
     '@nuxtjs/sitemap',
     [
@@ -155,6 +153,7 @@ export default {
       performance: true,
     }
   },
+
   /*i18n: {
     defaultLocale: 'en',
     locales: [
