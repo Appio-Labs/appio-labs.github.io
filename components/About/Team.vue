@@ -54,8 +54,8 @@ export default {
     return {
       temeList: [
         {
-          image: require("../../assets/images/team/small/01-1.png"),
-          media: require("../../assets/images/team/small/01-1.png"),
+          image: require("../../assets/images/team/small/01-7.png"),
+          media: require("../../assets/images/team/small/01-7.png"),
           hoverMedia: require("../../assets/images/team/small/01.jpg"),
           title: "Raúl Jareño",
           subtitle: "CEO, Appio",
@@ -72,8 +72,8 @@ export default {
           ],
         },
         {
-          image: require("../../assets/images/team/small/02-2.png"),
-          media: require("../../assets/images/team/small/02-2.png"),
+          image: require("../../assets/images/team/small/02-4.png"),
+          media: require("../../assets/images/team/small/02-4.png"),
           hoverMedia: require("../../assets/images/team/small/02.jpg"),
           title: "Patricia Gruart",
           subtitle: "Sales Manager, Appio",
