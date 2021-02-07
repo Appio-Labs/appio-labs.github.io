@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1612695115",layout:"LandingPage1",error:null,state:{locales:[a,"es"],locale:a,i18n:{routeParams:{}}},serverRendered:true,routePath:"\u002Fservices",config:{content:{dbHash:"b25b294c"}}}}("en"));
