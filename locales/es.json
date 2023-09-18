@@ -1,12 +1,12 @@
 {
   "header": {
-    "home" : "Inicio",
-    "about" : "Sobre Nosotros",
-    "services" : "Servicios",
-    "contact" : "Contacto",
-    "language" : "Español" 
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "language": "Español"
   },
-  "contact" : {
+  "contact": {
     "title": "Ponte en Contacto",
     "name": "Nombre*",
     "email": "Email*",
@@ -14,12 +14,12 @@
     "comment": "Comentario*",
     "send": "Enviar Mensaje"
   },
-  "language" : {
+  "language": {
     "english": "Inglés",
     "spanish": "Español"
   },
-  "copyright" : {
-    "year": "© 2020",
+  "copyright": {
+    "year": "© 2023",
     "rights": "Todos los derechos reservados"
   },
   "home": {
@@ -37,13 +37,13 @@
         "title": "Desarrollo Móvil",
         "description": "Nuestros desarrolladores de aplicaciones móviles tienen más de una década de experiencia en la creación de soluciones que satisfacen las necesidades del mercado, potencian la identidad de marca y fomentan el crecimiento."
       },
-      "qa" : {
+      "qa": {
         "title": "Automatización y Testing",
-        "description": "Nuestro departamento de calidad de software se encarga de realizar pruebas funcionales, rendimiento, compatibilidad, traducción y localización, así como soluciones de automatización de procesos."  
+        "description": "Nuestro departamento de calidad de software se encarga de realizar pruebas funcionales, rendimiento, compatibilidad, traducción y localización, así como soluciones de automatización de procesos."
       },
-      "design" : {
+      "design": {
         "title": "Diseño UI/UX",
-        "description": "Nuestros diseñadores crean prototipos visualmente atractivos, elegantes, con facilidad de uso y orientados al público objetivo de tu negocio. Optimizamos el diseño para organizar de forma eficiente la información al usuario."  
+        "description": "Nuestros diseñadores crean prototipos visualmente atractivos, elegantes, con facilidad de uso y orientados al público objetivo de tu negocio. Optimizamos el diseño para organizar de forma eficiente la información al usuario."
       }
     },
     "service": {
@@ -53,7 +53,7 @@
       "description3": "Descubre más sobre nuestros servicios",
       "button": "Aprender más"
     },
-    "features" : {
+    "features": {
       "title": "Oferta de Servicios",
       "description": "Appio ofrece una variedad de servicios de diseño y desarrollo, desde la creación de soluciones de desarrollo de software y diseños adaptativos hasta la creación de experiencias personalizadas utilizando la tecnología más avanzada y probada en el mercado.",
       "feature1": "Consultoría y prototipado.",
@@ -62,8 +62,8 @@
       "feature4": "Testing y QA automatizado.",
       "feature5": "Mantenimiento y soporte posterior a la garantía."
     },
-    "projects" : {
-      "title" : "Proyectos Destacados"
+    "projects": {
+      "title": "Proyectos Destacados"
     }
   },
   "about": {
@@ -82,9 +82,9 @@
   "services": {
     "title": "Servicios de Desarrollo de Aplicaciones Web y Móviles",
     "stack": {
-      "title" : "Nuestros servicios",
+      "title": "Nuestros servicios",
       "description": "Appio es popular por las siguientes especialidades que pueden hacer realidad tu producto",
-      "list" : [
+      "list": [
         {
           "icon": "apple.png",
           "title": "Desarrollo iOS",
