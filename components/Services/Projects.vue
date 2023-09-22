@@ -52,9 +52,6 @@ import AnimateOnVisible from "../Common/AnimateOnVisible.vue";
 export default {
   name: "Projects",
   props: ['content'],
-  components: {
-    Title
-  },
   methods: {
     getImgUrl(img) {
       if (img == undefined || img == "")
