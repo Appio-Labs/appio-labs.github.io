@@ -47,7 +47,6 @@
 </template>
 
 <script>
-import Title from "./Title.vue";
 import AnimateOnVisible from "../Common/AnimateOnVisible.vue";
 
 export default {
