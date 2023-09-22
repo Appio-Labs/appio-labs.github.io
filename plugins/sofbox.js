@@ -12,6 +12,9 @@ if (typeof window !== 'undefined') {
   require('magnific-popup/dist/jquery.magnific-popup.min')
   require('jquery.appear')
 }
+import AnimateOnVisible from '../components/Common/AnimateOnVisible.vue'
+Vue.component('AnimateOnVisible', AnimateOnVisible)
+Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(VueRetina, { retina })
 

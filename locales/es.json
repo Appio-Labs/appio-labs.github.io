@@ -134,6 +134,90 @@
           "description": "Para casos repetitivos que consumen mucho tiempo"
         }
       ]
+    },
+    "projects": {
+      "title": "Nuestros clientes",
+      "description": "Comprueba el porfolio de appio y nuestros casos de éxito",
+      "list": [
+        {
+          "title": "Polygon ID",
+          "date": "2021-11-02",
+          "color": "purple",
+          "image": "polygon-id.gif",
+          "tag": "Flutter - App + SDK",
+          "description": "Polygon ID es una solución de identidad privada autosoberana. Es un sistema de identidad nativo de blockchain con privacidad programable que empodera a las personas y permite la creación de interacciones confiables con servicios web3 gracias a la tecnología de pruebas de cero conocimiento (Zero Knowledge Proofs).",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://polygon.technology/polygon-id"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/0xPolygonID/polygonid-flutter-sdk"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.polygonid.wallet"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/polygon-id/id1629870183"
+            }
+          ]
+        },
+        {
+          "title": "Hermez",
+          "date": "2019-08-01",
+          "color": "orange",
+          "image": "hermez.gif",
+          "tag": "Flutter - App + SDK",
+          "description": "Hermez es un ZK Rollup de segunda capa de código abierto optimizado para transferencias de tokens seguras, de bajo costo y con la seguridad proporcionada por la capa de primer nivel de Ethereum. La red Hermez utiliza zk-rollups, una tecnología que agrega múltiples transacciones en una sola prueba, lo que reduce la carga en la red principal de Ethereum. Al aprovechar esta tecnología, Hermez pretende proporcionar una solución escalable y segura para aplicaciones de finanzas descentralizadas (DeFi), transferencias de tokens y más.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://hermez.io/wallet"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/hermeznetwork/hermez_flutter_app"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/hermeznetwork/hermez_flutter_sdk"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.iden3.hermezwallet"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/es/app/hermez/id1562893161"
+            }
+          ]
+        },
+        {
+          "title": "Cinesa App",
+          "date": "2019-02-01",
+          "color": "yellow",
+          "image": "cinesa.gif",
+          "tag": "Android & iOS - App",
+          "description": "La aplicación Cinesa ofrece una experiencia cinematográfica perfecta. Los usuarios pueden navegar fácilmente a través de una lista completa de películas, consultar horarios y reservar entradas de manera sencilla. La aplicación también proporciona información detallada sobre cada película, incluidos trailers, miembros del casting y reseñas, lo que ayuda a los usuarios a tomar decisiones informadas. Además, los usuarios de la aplicación Cinesa pueden explorar promociones, descuentos y programas de fidelización exclusivos, haciendo que su experiencia cinematográfica sea aún más placentera.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://www.cinesa.es"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.codiwans.cinesa"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/es/app/cinesa-cartelera-de-pel%C3%ADculas/id554643767"
+            }
+          ]
+        }
+      ]
     }
   }
 }

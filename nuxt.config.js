@@ -40,6 +40,7 @@ export default {
    */
   plugins: [
     '~plugins/sofbox.js',
+    "~plugins/vuetimeline.js"
     //'~plugins/i18n.js'
   ],
 

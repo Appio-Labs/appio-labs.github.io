@@ -132,6 +132,90 @@
           "description": "For time-consuming & business cases"
         }
       ]
+    },
+    "projects": {
+      "title": "Our customers",
+      "description": "Check appio's portfolio and our full variety of success stories",
+      "list": [
+        {
+          "title": "Polygon ID",
+          "date": "2021-11-02",
+          "color": "purple",
+          "image": "polygon-id.gif",
+          "tag": "Flutter - App + SDK",
+          "description": "Polygon ID is a self-sovereign private identity solution. Is a blockchain-native identity system with programmable privacy that empowers people and enables the creation of trusted interactions with web3 services thanks to the Zero Knowledge Proofs technology.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://polygon.technology/polygon-id"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/0xPolygonID/polygonid-flutter-sdk"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.polygonid.wallet"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/polygon-id/id1629870183"
+            }
+          ]
+        },
+        {
+          "title": "Hermez",
+          "date": "2019-08-01",
+          "color": "orange",
+          "image": "hermez.gif",
+          "tag": "Flutter - App + SDK",
+          "description": "Hermez is an open-source zero knowledge rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum. The Hermez Network uses zk-rollups, a technology that aggregates multiple transactions into a single proof, reducing the load on the Ethereum mainnet. By leveraging this technology, Hermez aims to provide a scalable and secure solution for decentralized finance (DeFi) applications, token transfers, and more.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://hermez.io/wallet"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/hermeznetwork/hermez_flutter_app"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/hermeznetwork/hermez_flutter_sdk"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.iden3.hermezwallet"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/es/app/hermez/id1562893161"
+            }
+          ]
+        },
+        {
+          "title": "Cinesa App",
+          "date": "2019-02-01",
+          "color": "yellow",
+          "image": "cinesa.gif",
+          "tag": "Android & iOS - App",
+          "description": "The Cinesa app offers a seamless movie-going experience. Users can easily browse through a comprehensive list of films, check showtimes, and book tickets with just a few taps. The app also provides detailed information about each movie, including trailers, cast members, and reviews, helping users make informed choices. Additionally, Cinesa app users can explore exclusive promotions, discounts, and loyalty programs, making their cinema experience even more enjoyable.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://www.cinesa.es"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.codiwans.cinesa"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/es/app/cinesa-cartelera-de-pel%C3%ADculas/id554643767"
+            }
+          ]
+        }
+      ]
     }
   }
 }

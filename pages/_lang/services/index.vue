@@ -13,6 +13,7 @@
       <!--<Faq />-->
       <!--<Blog />-->
       <!--<Client />-->
+      <Projects />
       <Footer />
     </div>
     <!--<ColorCustomizer />-->
@@ -33,6 +34,7 @@ import Faq from "~/components/Services/Faq";
 import Blog from "~/components/Services/Blog";
 import Client from "~/components/Services/Client";
 import Contact from "~/components/Services/Contact";
+import Projects from "~/components/Services/Projects";
 import Footer from "~/components/Common/Footer";
 import { sofbox } from "~/assets/app/app";
 
@@ -51,6 +53,7 @@ export default {
     Blog,
     Client,
     Contact,
+    Projects,
     Footer,
   },
   mounted() {
@@ -59,6 +62,58 @@ export default {
       // sofbox.magnific()
     }, 1000);
   },
+  /*data: () => ({
+    isLoaded: false,
+    user: {},
+    posts: [],
+  }),*/
+  methods: {
+    /*fetchPosts() {
+      return bucket.getObjects({
+        type: "portfolio-contents",
+        props: "slug,title,metadata",
+      });
+    },
+    fetchUser() {
+      return bucket.getObjects({
+        type: "portfolio-contents",
+        q: "user-data",
+        props: "slug,title,metadata",
+      });
+    },
+    fetchObjectTypes() {
+      return bucket.getObjectTypes();
+    },*/
+    /*findSlug(slug) {
+      return this.posts.find((item) => {
+        return item.slug === slug;
+      });
+    },*/
+    /*extractFirstObject(objects) {
+      if (objects.objects == null)
+        return void 0;
+      else
+        return objects.objects[0];
+    }*/
+  },
+  /*created() {
+    document.body.classList.add("loading");
+    Promise.all([this.fetchPosts(), this.fetchUser()]).then(([posts, user_data]) => {
+      user_data = this.extractFirstObject(user_data);
+      this.posts = posts.objects;
+      this.user = {
+        name: user_data.metadata.name,
+        status: user_data.metadata.status,
+        email: user_data.metadata.email,
+        phone: user_data.metadata.phone,
+        city: user_data.metadata.city,
+        lang: user_data.metadata.lang,
+        photo: user_data.metadata.photo,
+      }
+      this.isLoaded = true;
+      this.$nextTick(() => document.body.classList.remove("loading"));
+    });
+  },*/
 };
 </script>
 <style>
