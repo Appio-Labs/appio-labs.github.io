@@ -1,6 +1,6 @@
 <template>
   <section class="overview-block-ptb iq-projects" id="projects">
-    <AnimateOnVisible name="fadeDown" :duration="1">
+    <AnimateOnVisible name="fadeUp" :duration="1">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -12,15 +12,11 @@
             </div>
           </div>
         </div>
-
       </div>
     </AnimateOnVisible>
     <div class="row">
       <div class="container-fluid center-block">
         <article class="content text-center">
-          <transition name="fade">
-            <p v-if="show" style="animation-duration: 0.3s">hello</p>
-          </transition>
           <AnimateOnVisible class="timeline mx-auto iq-plr-80"
             v-for="(RecentPost, index) in  $t('services.projects.list')" :key="index" name="fadeLeft" :duration="0.5">
             <vue-timeline-update :thumbnail="getImgUrl(RecentPost.image)" :date="new Date(RecentPost.date)"

@@ -1,31 +1,36 @@
 <template>
   <section class="overview-block-ptb iq-specialities">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="heading-title">
-            <h3 class="title iq-tw-7">
-              {{ $t('services.stack.title') }}
-            </h3>
-            <p>{{ $t('services.stack.description') }}</p>
+      <AnimateOnVisible name="fadeUp" :duration="1">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="heading-title">
+              <h3 class="title iq-tw-7">
+                {{ $t('services.stack.title') }}
+              </h3>
+              <p>{{ $t('services.stack.description') }}</p>
+            </div>
           </div>
         </div>
-      </div>
+      </AnimateOnVisible>
       <div class="row">
-        <div v-for="(item,index) of list" :key="index" class="col-sm-12 col-lg-3 col-md-6 iq-mb-30">
-          <CardStyle9>
-            <i slot="cardMedia"><img class="img-fluid center-block" width="65" height="65" :src="require('~/assets/images/services/' + item.icon)" :alt="item.title"/></i>
-            <!--<i slot="cardMedia" aria-hidden="true" :class="item.icon"></i>-->
-            <div slot="cardBody">
-              <h5 class="iq-tw-7 iq-pt-20">
-                {{ item.title }}
-              </h5>
-              <h7 class="iq-tw-7 iq-mt-10 iq-mb-30">
-                {{ item.section }}
-              </h7>
-              <p>{{ item.description }}</p>
-            </div>
-          </CardStyle9>
+        <div v-for="(item, index) of list" :key="index" class="col-sm-12 col-lg-3 col-md-6 iq-mb-30">
+          <AnimateOnVisible name="bounce">
+            <CardStyle9>
+              <i slot="cardMedia"><img class="img-fluid center-block" width="65" height="65"
+                  :src="require('~/assets/images/services/' + item.icon)" :alt="item.title" /></i>
+              <!--<i slot="cardMedia" aria-hidden="true" :class="item.icon"></i>-->
+              <div slot="cardBody">
+                <h5 class="iq-tw-7 iq-pt-20">
+                  {{ item.title }}
+                </h5>
+                <h7 class="iq-tw-7 iq-mt-10 iq-mb-30">
+                  {{ item.section }}
+                </h7>
+                <p>{{ item.description }}</p>
+              </div>
+            </CardStyle9>
+          </AnimateOnVisible>
         </div>
       </div>
     </div>
@@ -43,16 +48,16 @@ import { servicesList } from '~/config/constant'
 }*/
 export default {
   name: 'Specialites',
-  data () {
-       /* return {
-            showExchangeTypes: false,
-            exchangetItems: [
-                //this.$t('message.the_world') Want to get the character of the corresponding language
-                {id: 1, text: this.$t('message.the_world')},//
-                {id: 2, text: this.$t('message.the_world_2')}
-            ],                 
-        }*/
-    return {list: this.$t('services.stack.list') };/*{
+  data() {
+    /* return {
+         showExchangeTypes: false,
+         exchangetItems: [
+             //this.$t('message.the_world') Want to get the character of the corresponding language
+             {id: 1, text: this.$t('message.the_world')},//
+             {id: 2, text: this.$t('message.the_world_2')}
+         ],                 
+     }*/
+    return { list: this.$t('services.stack.list') };/*{
       list:/*[
         {
           icon: require('~/assets/images/services/apple.png'),
