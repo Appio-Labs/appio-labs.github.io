@@ -10,7 +10,7 @@ npm run generate
 cd dist
 
 # if you are deploying to a custom domain
-echo 'appio.site' > CNAME
+echo 'www.appio.site' > CNAME
 
 cd ..
 

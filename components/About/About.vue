@@ -36,7 +36,7 @@
                   </div>
                 </AnimateOnVisible>
               </div>
-              <div slot="cardMedia" class="col-lg-6 align-self-center">
+              <div slot="cardMedia" class="col-lg-6 iq-pb-40 align-self-center">
                 <AnimateOnVisible name="bounce">
                   <div>
                     <img class="iq-works-img pull-right img-fluid" src="../../assets/images/banner/02-4.png"

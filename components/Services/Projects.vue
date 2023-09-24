@@ -23,7 +23,7 @@
               :title="RecentPost.title" :description="RecentPost.description" :color="RecentPost.color"
               :category="RecentPost.tag" icon="code" />
             <div class="iq-pl-100 iq-pt-20 iq-pb-40">
-              <div class="row justify-content-center iq-plr-40">
+              <div class="row justify-content-center">
                 <div v-for="(Url, index) in  RecentPost.links" class="text-center col iq-plr-20">
                   <li><a :href="Url.link"> <i :class="Url.image" /> </a></li>
                 </div>
