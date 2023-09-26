@@ -216,6 +216,42 @@
               "link": "https://apps.apple.com/es/app/cinesa-cartelera-de-pel%C3%ADculas/id554643767"
             }
           ]
+        },
+        {
+          "title": "Iden3 Wallet",
+          "date": "2019-08-01",
+          "color": "blue",
+          "image": "iden3.gif",
+          "tag": "Android - App",
+          "description": "iden3 es un proyecto que tiene como objetivo crear un sistema de identidad resistente a la censura. Se centra en el desarrollo de tecnologías como zkSNARK (argumentos de conocimiento sucintos no interactivos de conocimiento cero) y Merkle trees para permitir identidades digitales seguras y que preserven la privacidad. El proyecto proporciona herramientas como el compilador circom, que se utiliza para generar pruebas de conocimiento cero, y ofrece una librería llamada circomLib que contiene circuitos parametrizables que pueden usarse para construir circuitos complejos. Con su misión de crear un sistema de identidad accesible y seguro, iden3 está a la vanguardia de la investigación y el desarrollo en este campo.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://iden3.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.iden3.demo"
+            }
+          ]
+        },
+        {
+          "title": "Appio Web",
+          "date": "2020-09-01",
+          "color": "green",
+          "image": "appio.gif",
+          "tag": "Vue - Web",
+          "description": "Appio es una empresa de desarrollo de software que ofrece a empresas de todo el mundo soluciones tecnológicas personalizadas. Ayudamos a los clientes a lo largo de todo o parte del ciclo de vida del desarrollo de software. Nuestro equipo de desarrolladores capacitados se dedica a crear aplicaciones móviles con una sólida base arquitectónica. Seguimos principios de arquitectura limpia, asegurando que nuestras soluciones sean modulares, mantenibles y escalables.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://www.appio.site"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/Appio-Labs/appio-labs.github.io"
+            }
+          ]
         }
       ]
     }

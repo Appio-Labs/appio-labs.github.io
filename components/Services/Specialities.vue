@@ -15,7 +15,7 @@
       </AnimateOnVisible>
       <div class="row">
         <div v-for="(item, index) of list" :key="index" class="col-sm-12 col-lg-3 col-md-6 iq-mb-30">
-          <AnimateOnVisible name="bounce">
+          <AnimateOnVisible name="fade" :duration="1">
             <CardStyle9>
               <i slot="cardMedia"><img class="img-fluid center-block" width="65" height="65"
                   :src="require('~/assets/images/services/' + item.icon)" :alt="item.title" /></i>

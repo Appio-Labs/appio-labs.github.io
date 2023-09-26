@@ -1,9 +1,6 @@
 <template>
-  <ParallaxStyle1
-    ids="iq-home"
-    :bg-image="bgImage"
-    class-names="iq-banner iq-pb-100 overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax"
-  >
+  <ParallaxStyle1 ids="iq-home" :bg-image="bgImage"
+    class-names="iq-banner iq-pb-100 overview-block-pt iq-bg-over iq-over-blue-1 iq-parallax">
     <div class="container-fluid">
       <div class="banner-text">
         <div class="row">
@@ -16,12 +13,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <cld-image
-              class="banner-img"
-              :publicId="mainImageId"
-              quality="auto:good"
-              responsive
-            />
+            <cld-image class="banner-img" :publicId="mainImageId" quality="auto:good" responsive />
           </div>
         </div>
       </div>

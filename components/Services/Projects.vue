@@ -1,19 +1,20 @@
 <template>
   <section class="overview-block-ptb iq-projects" id="projects">
-    <AnimateOnVisible name="fadeUp" :duration="1">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <AnimateOnVisible name="fadeUp" :duration="1">
             <div class="heading-title">
               <h3 class="title iq-tw-7">
                 {{ $t('services.projects.title') }}
               </h3>
               <p>{{ $t('services.projects.description') }}</p>
             </div>
-          </div>
+          </AnimateOnVisible>
         </div>
       </div>
-    </AnimateOnVisible>
+    </div>
     <div class="row">
       <div class="container-fluid center-block">
         <article class="content text-center">

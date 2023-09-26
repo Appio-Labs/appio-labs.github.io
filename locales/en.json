@@ -165,7 +165,7 @@
         },
         {
           "title": "Hermez",
-          "date": "2019-08-01",
+          "date": "2020-11-01",
           "color": "orange",
           "image": "hermez.gif",
           "tag": "Flutter - App + SDK",
@@ -212,6 +212,42 @@
             {
               "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
               "link": "https://apps.apple.com/es/app/cinesa-cartelera-de-pel%C3%ADculas/id554643767"
+            }
+          ]
+        },
+        {
+          "title": "Iden3 Wallet",
+          "date": "2019-08-01",
+          "color": "blue",
+          "image": "iden3.gif",
+          "tag": "Android - App",
+          "description": "iden3 is a project that aims to create a censorship-resistant identity system. It focuses on developing technologies such as zkSNARKs (zero-knowledge succinct non-interactive arguments of knowledge) and Merkle trees to enable secure and privacy-preserving digital identities. The project provides tools like the circom compiler, which is used to generate zero-knowledge proofs, and offers a library called circomLib that contains parameterizable circuits that can be used to build complex circuits. With its mission to create an accessible and secure identity system, iden3 is at the forefront of research and development in this field.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://iden3.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.iden3.demo"
+            }
+          ]
+        },
+        {
+          "title": "Appio Web",
+          "date": "2020-09-01",
+          "color": "green",
+          "image": "appio.gif",
+          "tag": "Vue - Web",
+          "description": "Appio is a software development company that provides businesses worldwide with custom technology solutions. We help clients through all or parts of the Software Development Lifecycle. Our team of skilled developers is dedicated to creating mobile applications with a strong architectural foundation. We follow clean architecture principles, ensuring that our solutions are modular, maintainable, and scalable.",
+          "links": [
+            {
+              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "link": "https://www.appio.site"
+            },
+            {
+              "image": "fab fab-project fa-github fa-2x",
+              "link": "https://github.com/Appio-Labs/appio-labs.github.io"
             }
           ]
         }
