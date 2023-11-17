@@ -146,7 +146,7 @@
           "description": "Polygon ID is a self-sovereign private identity solution. Is a blockchain-native identity system with programmable privacy that empowers people and enables the creation of trusted interactions with web3 services thanks to the Zero Knowledge Proofs technology.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://polygon.technology/polygon-id"
             },
             {
@@ -172,7 +172,7 @@
           "description": "Hermez is an open-source zero knowledge rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum. The Hermez Network uses zk-rollups, a technology that aggregates multiple transactions into a single proof, reducing the load on the Ethereum mainnet. By leveraging this technology, Hermez aims to provide a scalable and secure solution for decentralized finance (DeFi) applications, token transfers, and more.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://hermez.io/wallet"
             },
             {
@@ -202,7 +202,7 @@
           "description": "The Cinesa app offers a seamless movie-going experience. Users can easily browse through a comprehensive list of films, check showtimes, and book tickets with just a few taps. The app also provides detailed information about each movie, including trailers, cast members, and reviews, helping users make informed choices. Additionally, Cinesa app users can explore exclusive promotions, discounts, and loyalty programs, making their cinema experience even more enjoyable.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://www.cinesa.es"
             },
             {
@@ -224,7 +224,7 @@
           "description": "iden3 is a project that aims to create a censorship-resistant identity system. It focuses on developing technologies such as zkSNARKs (zero-knowledge succinct non-interactive arguments of knowledge) and Merkle trees to enable secure and privacy-preserving digital identities. The project provides tools like the circom compiler, which is used to generate zero-knowledge proofs, and offers a library called circomLib that contains parameterizable circuits that can be used to build complex circuits. With its mission to create an accessible and secure identity system, iden3 is at the forefront of research and development in this field.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://iden3.io"
             },
             {
@@ -242,7 +242,7 @@
           "description": "Appio is a software development company that provides businesses worldwide with custom technology solutions. We help clients through all or parts of the Software Development Lifecycle. Our team of skilled developers is dedicated to creating mobile applications with a strong architectural foundation. We follow clean architecture principles, ensuring that our solutions are modular, maintainable, and scalable.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://www.appio.site"
             },
             {

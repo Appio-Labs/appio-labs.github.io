@@ -148,7 +148,7 @@
           "description": "Polygon ID es una solución de identidad privada autosoberana. Es un sistema de identidad nativo de blockchain con privacidad programable que empodera a las personas y permite la creación de interacciones confiables con servicios web3 gracias a la tecnología de pruebas de cero conocimiento (Zero Knowledge Proofs).",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://polygon.technology/polygon-id"
             },
             {
@@ -174,7 +174,7 @@
           "description": "Hermez es un ZK Rollup de segunda capa de código abierto optimizado para transferencias de tokens seguras, de bajo costo y con la seguridad proporcionada por la capa de primer nivel de Ethereum. La red Hermez utiliza zk-rollups, una tecnología que agrega múltiples transacciones en una sola prueba, lo que reduce la carga en la red principal de Ethereum. Al aprovechar esta tecnología, Hermez pretende proporcionar una solución escalable y segura para aplicaciones de finanzas descentralizadas (DeFi), transferencias de tokens y más.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://hermez.io/wallet"
             },
             {
@@ -204,7 +204,7 @@
           "description": "La aplicación Cinesa ofrece una experiencia cinematográfica perfecta. Los usuarios pueden navegar fácilmente a través de una lista completa de películas, consultar horarios y reservar entradas de manera sencilla. La aplicación también proporciona información detallada sobre cada película, incluidos trailers, miembros del casting y reseñas, lo que ayuda a los usuarios a tomar decisiones informadas. Además, los usuarios de la aplicación Cinesa pueden explorar promociones, descuentos y programas de fidelización exclusivos, haciendo que su experiencia cinematográfica sea aún más placentera.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://www.cinesa.es"
             },
             {
@@ -226,7 +226,7 @@
           "description": "iden3 es un proyecto que tiene como objetivo crear un sistema de identidad resistente a la censura. Se centra en el desarrollo de tecnologías como zkSNARK (argumentos de conocimiento sucintos no interactivos de conocimiento cero) y Merkle trees para permitir identidades digitales seguras y que preserven la privacidad. El proyecto proporciona herramientas como el compilador circom, que se utiliza para generar pruebas de conocimiento cero, y ofrece una librería llamada circomLib que contiene circuitos parametrizables que pueden usarse para construir circuitos complejos. Con su misión de crear un sistema de identidad accesible y seguro, iden3 está a la vanguardia de la investigación y el desarrollo en este campo.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://iden3.io"
             },
             {
@@ -244,7 +244,7 @@
           "description": "Appio es una empresa de desarrollo de software que ofrece a empresas de todo el mundo soluciones tecnológicas personalizadas. Ayudamos a los clientes a lo largo de todo o parte del ciclo de vida del desarrollo de software. Nuestro equipo de desarrolladores capacitados se dedica a crear aplicaciones móviles con una sólida base arquitectónica. Seguimos principios de arquitectura limpia, asegurando que nuestras soluciones sean modulares, mantenibles y escalables.",
           "links": [
             {
-              "image": "fab fab-project fa-brands fa-chrome fa-2x",
+              "image": "fas fa-globe fa-2x",
               "link": "https://www.appio.site"
             },
             {
