@@ -29,29 +29,9 @@ export default {
     return {
       images: [
         {
-          src: require("../../assets/images/clients/05.png"),
-          alt: "Book",
-          href: "https://book.io",
-        },
-        {
-          src: require("../../assets/images/clients/01.png"),
-          alt: "Polygon",
-          href: "https://polygon.technology",
-        },
-        {
-          src: require("../../assets/images/clients/02.png"),
-          alt: "Hermez",
-          href: "https://hermez.io",
-        },
-        {
-          src: require("../../assets/images/clients/03.png"),
-          alt: "iden3",
-          href: "https://iden3.io",
-        },
-        {
-          src: require("../../assets/images/clients/04.png"),
-          alt: "Cinesa",
-          href: "https://www.cinesa.es",
+          src: require("../../assets/images/clients/06.png"),
+          alt: "Stuff",
+          href: "https://stuff.io",
         },
         {
           src: require("../../assets/images/clients/05.png"),
@@ -77,6 +57,41 @@ export default {
           src: require("../../assets/images/clients/04.png"),
           alt: "Cinesa",
           href: "https://www.cinesa.es",
+        },
+        {
+          src: require("../../assets/images/clients/06.png"),
+          alt: "Stuff",
+          href: "https://stuff.io",
+        },
+        {
+          src: require("../../assets/images/clients/05.png"),
+          alt: "Book",
+          href: "https://book.io",
+        },
+        {
+          src: require("../../assets/images/clients/01.png"),
+          alt: "Polygon",
+          href: "https://polygon.technology",
+        },
+        {
+          src: require("../../assets/images/clients/02.png"),
+          alt: "Hermez",
+          href: "https://hermez.io",
+        },
+        {
+          src: require("../../assets/images/clients/03.png"),
+          alt: "iden3",
+          href: "https://iden3.io",
+        },
+        {
+          src: require("../../assets/images/clients/04.png"),
+          alt: "Cinesa",
+          href: "https://www.cinesa.es",
+        },
+        {
+          src: require("../../assets/images/clients/06.png"),
+          alt: "Stuff",
+          href: "https://stuff.io",
         },
         {
           src: require("../../assets/images/clients/05.png"),
