@@ -138,6 +138,50 @@
       "description": "Check appio's portfolio and our full variety of success stories",
       "list": [
         {
+          "title": "Stuff",
+          "date": "2024-06-15",
+          "color": "turquoise",
+          "image": "stuff.gif",
+          "tag": "Android - App",
+          "description": "Stuff allows users to truly own what they buy, letting them to sell and purchase music, videos, podcasts, movies, and more, ensuring creators receive a fair share from their art.",
+          "links": [
+            {
+              "image": "fas fa-globe fa-2x",
+              "link": "https://stuff.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=io.stuff"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/stuff-own-your-content/id6503018959"
+            }
+          ]
+        },
+        {
+          "title": "Book",
+          "date": "2024-02-01",
+          "color": "blue",
+          "image": "book.gif",
+          "tag": "Android - App",
+          "description": "Book is a Web3 marketplace for buying, reading, and selling eBooks and Audiobooks. Readers can now buy and truly own their eBooks and Audiobooks and sell them on secondary marketplaces.",
+          "links": [
+            {
+              "image": "fas fa-globe fa-2x",
+              "link": "https://book.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.bookio"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/book-io/id1661003233"
+            }
+          ]
+        },
+        {
           "title": "Polygon ID",
           "date": "2021-11-02",
           "color": "purple",

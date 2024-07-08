@@ -140,6 +140,50 @@
       "description": "Comprueba el porfolio de appio y nuestros casos de éxito",
       "list": [
         {
+          "title": "Stuff",
+          "date": "2024-06-15",
+          "color": "turquoise",
+          "image": "stuff.gif",
+          "tag": "Android - App",
+          "description": "Stuff permite a los usuarios ser propietarios reales de lo que compran, permitiéndoles vender y comprar música, vídeos, podcasts, películas y más, garantizando que los creadores reciban una parte justa de su arte.",
+          "links": [
+            {
+              "image": "fas fa-globe fa-2x",
+              "link": "https://stuff.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=io.stuff"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/stuff-own-your-content/id6503018959"
+            }
+          ]
+        },
+        {
+          "title": "Book",
+          "date": "2024-02-01",
+          "color": "blue",
+          "image": "book.gif",
+          "tag": "Android - App",
+          "description": "Book es un mercado Web3 para comprar, leer y vender libros electrónicos y audiolibros. Los lectores ahora pueden comprar y poseer verdaderamente sus libros electrónicos y audiolibros y venderlos en mercados secundarios.",
+          "links": [
+            {
+              "image": "fas fa-globe fa-2x",
+              "link": "https://book.io"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-google-play fa-2x",
+              "link": "https://play.google.com/store/apps/details?id=com.bookio"
+            },
+            {
+              "image": "fab fab-project fa-brands fa-app-store-ios fa-2x",
+              "link": "https://apps.apple.com/us/app/book-io/id1661003233"
+            }
+          ]
+        },
+        {
           "title": "Polygon ID",
           "date": "2021-11-02",
           "color": "purple",
